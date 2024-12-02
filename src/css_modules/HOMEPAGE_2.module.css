@@ -1,0 +1,854 @@
+.b {
+    position: absolute;
+    top: 11px;
+    left: 14px;
+}
+.imageIcon {
+    position: absolute;
+    top: 46px;
+    left: 0px;
+    width: 538px;
+    height: 225px;
+    object-fit: cover;
+}
+.vectorIcon {
+    position: absolute;
+    height: 1.54%;
+    width: 3.41%;
+    top: 1.07%;
+    right: 20.02%;
+    bottom: 97.39%;
+    left: 76.57%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon1 {
+    position: absolute;
+    height: 1.33%;
+    width: 4.51%;
+    top: 1.35%;
+    right: 13.51%;
+    bottom: 97.32%;
+    left: 81.98%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.homePage2Child {
+    position: absolute;
+    top: 58px;
+    left: 14px;
+    box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
+    border-radius: 10px;
+    background-color: #434242;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    width: 140px;
+    height: 39px;
+}
+.homePage2Item {
+    position: absolute;
+    top: 57px;
+    left: 245px;
+    box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
+    border-radius: 10px;
+    background-color: #434242;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    width: 172px;
+    height: 40px;
+}
+.vectorIcon2 {
+    position: absolute;
+    height: 1.54%;
+    width: 5.84%;
+    top: 1.29%;
+    right: 5.22%;
+    bottom: 97.16%;
+    left: 88.94%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.vectorIcon3 {
+    position: absolute;
+    height: 3.06%;
+    width: 6.61%;
+    top: 0.54%;
+    right: 4.84%;
+    bottom: 96.4%;
+    left: 88.55%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.vectorIcon4 {
+    position: absolute;
+    height: 2.32%;
+    width: 5.02%;
+    top: 7.05%;
+    right: 89.31%;
+    bottom: 90.63%;
+    left: 5.67%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon5 {
+    position: absolute;
+    height: 4.51%;
+    width: 10.21%;
+    top: 6.18%;
+    right: 86.45%;
+    bottom: 89.31%;
+    left: 3.34%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    opacity: 0.2;
+}
+.vectorIcon6 {
+    position: absolute;
+    height: 4.51%;
+    width: 10.21%;
+    top: 6.06%;
+    right: 86.72%;
+    bottom: 89.43%;
+    left: 3.07%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.wxyz {
+    position: absolute;
+    top: 68px;
+    left: 76px;
+    display: inline-block;
+    width: 51px;
+    height: 22px;
+}
+.connectWallet {
+    position: absolute;
+    top: 69px;
+    left: 254px;
+    display: inline-block;
+    width: 135px;
+    height: 22px;
+}
+.vectorIcon7 {
+    position: absolute;
+    height: 0.75%;
+    width: 2.13%;
+    top: 8.02%;
+    right: 68.09%;
+    bottom: 91.23%;
+    left: 29.78%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.vectorIcon8 {
+    position: absolute;
+    height: 1.64%;
+    width: 4.91%;
+    top: 7.79%;
+    right: 5.72%;
+    bottom: 90.57%;
+    left: 89.37%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon9 {
+    position: absolute;
+    height: 0.13%;
+    width: 0.28%;
+    top: 8.55%;
+    right: 6.81%;
+    bottom: 91.32%;
+    left: 92.91%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon10 {
+    position: absolute;
+    height: 0.68%;
+    width: 4.09%;
+    top: 7.37%;
+    right: 6.54%;
+    bottom: 91.95%;
+    left: 89.37%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.homePage2Inner {
+    position: absolute;
+    top: 193px;
+    left: 41px;
+    border-radius: 15px;
+    background-color: #434242;
+    border: 1px solid #fff8f8;
+    box-sizing: border-box;
+    width: 347px;
+    height: 116px;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 265px;
+    left: 52px;
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background-color: #fff;
+    width: 325px;
+    height: 109px;
+}
+.icon {
+    position: absolute;
+    top: 142px;
+    left: 240px;
+    width: 233px;
+    height: 229px;
+    object-fit: cover;
+}
+.gpt360 {
+    position: absolute;
+    top: 210px;
+    left: 122px;
+    font-size: 32px;
+    display: inline-block;
+    font-family: Rambla;
+    width: 223px;
+    height: 35px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ellipseDiv {
+    position: absolute;
+    top: 394px;
+    left: 208px;
+    border-radius: 50%;
+    background-color: #fff6f6;
+    width: 10px;
+    height: 10px;
+}
+.homePage2Child1 {
+    position: absolute;
+    top: 394px;
+    left: 186px;
+    border-radius: 50%;
+    background-color: #acaeb0;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+.homePage2Child2 {
+    position: absolute;
+    top: 394px;
+    left: 230px;
+    border-radius: 50%;
+    background-color: #acaeb0;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+.homePage2Child3 {
+    position: absolute;
+    top: 854px;
+    left: 428px;
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 15px 0px 0px;
+    background-color: #fff;
+    width: 428px;
+    height: 72px;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.vectorIcon11 {
+    position: absolute;
+    height: 3.89%;
+    width: 8.64%;
+    top: 94.28%;
+    right: 85.05%;
+    bottom: 1.84%;
+    left: 6.31%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon12 {
+    position: absolute;
+    height: 3.25%;
+    width: 9.11%;
+    top: 95%;
+    right: 23.83%;
+    bottom: 1.75%;
+    left: 67.06%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon13 {
+    position: absolute;
+    height: 3.25%;
+    width: 9.11%;
+    top: 93.74%;
+    right: 23.83%;
+    bottom: 3.01%;
+    left: 67.06%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon14 {
+    position: absolute;
+    height: 1.87%;
+    width: 4.56%;
+    top: 95.05%;
+    right: 28.09%;
+    bottom: 3.08%;
+    left: 67.35%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon15 {
+    position: absolute;
+    height: 1.43%;
+    width: 5.16%;
+    top: 91.89%;
+    right: 86.91%;
+    bottom: 6.69%;
+    left: 7.93%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.homePage2Child4 {
+    position: absolute;
+    height: 1.08%;
+    width: 2.34%;
+    top: 91.68%;
+    right: 88.32%;
+    bottom: 7.24%;
+    left: 9.35%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.apply {
+    position: absolute;
+    top: 749px;
+    left: 109px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.apply1 {
+    position: absolute;
+    top: 654px;
+    left: 41px;
+    font-size: 20px;
+    font-family: Karla;
+    text-align: center;
+    display: inline-block;
+    width: 345px;
+    height: 59px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.gpt360Circle400x400Icon {
+    position: absolute;
+    top: 208px;
+    left: 63px;
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    object-fit: cover;
+}
+.icon1 {
+    position: absolute;
+    top: 137px;
+    left: -92px;
+    width: 336px;
+    height: 42px;
+    object-fit: cover;
+}
+.active {
+    position: absolute;
+    top: 143px;
+    left: 37px;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    display: inline-block;
+    width: 141px;
+    height: 21px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.icon2 {
+    position: absolute;
+    top: 797px;
+    left: -25px;
+    width: 481px;
+    height: 37px;
+    object-fit: cover;
+}
+.icon3 {
+    position: absolute;
+    top: 845px;
+    left: 77px;
+    width: 119px;
+    height: 77px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.icon4 {
+    position: absolute;
+    top: 846px;
+    left: 160px;
+    width: 114px;
+    height: 87px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.vectorIcon16 {
+    position: absolute;
+    height: 4.05%;
+    width: 7.45%;
+    top: 94.03%;
+    right: 8.08%;
+    bottom: 1.92%;
+    left: 84.46%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.tokenPrice {
+    position: absolute;
+    top: 275px;
+    left: 106px;
+    font-size: 15px;
+    letter-spacing: -0.01em;
+    line-height: 130.08%;
+    display: flex;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 123px;
+    height: 16px;
+}
+.p {
+    margin: 0;
+    letter-spacing: 0.07em;
+    white-space: pre-wrap;
+}
+.p1 {
+    margin: 0;
+    letter-spacing: -0.01em;
+}
+.txt {
+    width: 100%;
+}
+.b1 {
+    position: absolute;
+    top: 345px;
+    left: 88px;
+    font-size: 7px;
+    line-height: 130.08%;
+    display: flex;
+    color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    width: 78px;
+    height: 20px;
+}
+.b2 {
+    position: absolute;
+    top: 345px;
+    left: 313px;
+    font-size: 7px;
+    line-height: 130.08%;
+    display: flex;
+    color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    width: 78px;
+    height: 20px;
+}
+.d02h20m {
+    position: absolute;
+    top: 346px;
+    left: 180px;
+    font-size: 7px;
+    letter-spacing: 0.07em;
+    line-height: 130.08%;
+    display: flex;
+    color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    width: 114px;
+    height: 10px;
+}
+.usdt {
+    position: absolute;
+    top: 293px;
+    left: 106px;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    line-height: 130.08%;
+    display: flex;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 212px;
+    height: 25px;
+}
+.vectorIcon17 {
+    position: absolute;
+    height: 3.6%;
+    width: 3.95%;
+    top: 29.81%;
+    right: 77.1%;
+    bottom: 66.6%;
+    left: 18.95%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon18 {
+    position: absolute;
+    height: 2.31%;
+    width: 3.95%;
+    top: 31.6%;
+    right: 80.16%;
+    bottom: 66.09%;
+    left: 15.89%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.homePage2Child5 {
+    position: absolute;
+    top: 331px;
+    left: 76px;
+    border-radius: 10px;
+    background-color: #434242;
+    width: 278px;
+    height: 7px;
+}
+.homePage2Child6 {
+    position: absolute;
+    top: 331px;
+    left: 76px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: linear-gradient(90deg, #ff0004, #fdfd0c 50%, #2eff04);
+    width: 187px;
+    height: 7px;
+}
+.vectorIcon19 {
+    position: absolute;
+    height: 0.48%;
+    width: 1.24%;
+    top: 37.66%;
+    right: 80.57%;
+    bottom: 61.86%;
+    left: 18.2%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon20 {
+    position: absolute;
+    height: 0.13%;
+    width: 1.24%;
+    top: 37.66%;
+    right: 80.57%;
+    bottom: 62.21%;
+    left: 18.2%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon21 {
+    position: absolute;
+    height: 0.1%;
+    width: 0.68%;
+    top: 37.57%;
+    right: 80.85%;
+    bottom: 62.34%;
+    left: 18.47%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon22 {
+    position: absolute;
+    height: 0.06%;
+    width: 0.28%;
+    top: 37.85%;
+    right: 81.25%;
+    bottom: 62.08%;
+    left: 18.47%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon23 {
+    position: absolute;
+    height: 0.06%;
+    width: 0.28%;
+    top: 37.98%;
+    right: 81.25%;
+    bottom: 61.96%;
+    left: 18.47%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon24 {
+    position: absolute;
+    height: 0.06%;
+    width: 0.28%;
+    top: 37.85%;
+    right: 80.84%;
+    bottom: 62.08%;
+    left: 18.88%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon25 {
+    position: absolute;
+    height: 0.06%;
+    width: 0.28%;
+    top: 37.98%;
+    right: 80.84%;
+    bottom: 61.96%;
+    left: 18.88%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon26 {
+    position: absolute;
+    height: 0.48%;
+    width: 1.24%;
+    top: 37.66%;
+    right: 28.23%;
+    bottom: 61.86%;
+    left: 70.53%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon27 {
+    position: absolute;
+    height: 0.13%;
+    width: 1.24%;
+    top: 37.66%;
+    right: 28.23%;
+    bottom: 62.21%;
+    left: 70.53%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon28 {
+    position: absolute;
+    height: 0.1%;
+    width: 0.68%;
+    top: 37.57%;
+    right: 28.52%;
+    bottom: 62.34%;
+    left: 70.8%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon29 {
+    position: absolute;
+    height: 0.06%;
+    width: 0.28%;
+    top: 37.85%;
+    right: 28.92%;
+    bottom: 62.08%;
+    left: 70.8%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon30 {
+    position: absolute;
+    height: 0.06%;
+    width: 0.28%;
+    top: 37.98%;
+    right: 28.92%;
+    bottom: 61.96%;
+    left: 70.8%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon31 {
+    position: absolute;
+    height: 0.06%;
+    width: 0.28%;
+    top: 37.85%;
+    right: 28.51%;
+    bottom: 62.08%;
+    left: 71.21%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon32 {
+    position: absolute;
+    height: 0.06%;
+    width: 0.28%;
+    top: 37.98%;
+    right: 28.51%;
+    bottom: 61.96%;
+    left: 71.21%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon33 {
+    position: absolute;
+    height: 0.57%;
+    width: 1.24%;
+    top: 38.53%;
+    right: 80.57%;
+    bottom: 60.9%;
+    left: 18.19%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon34 {
+    position: absolute;
+    height: 0.57%;
+    width: 1.24%;
+    top: 38.53%;
+    right: 28.23%;
+    bottom: 60.9%;
+    left: 70.53%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon35 {
+    position: absolute;
+    height: 0.69%;
+    width: 1.5%;
+    top: 37.51%;
+    right: 58.73%;
+    bottom: 61.8%;
+    left: 39.78%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.homePage2Child7 {
+    position: absolute;
+    top: 457px;
+    left: 41px;
+    box-shadow: 0px 2px 3px 5px #0048ff;
+    border-radius: 10px;
+    background-color: #000;
+    border: 1px solid #0048ff;
+    box-sizing: border-box;
+    width: 158px;
+    height: 119px;
+    opacity: 0.2;
+}
+.homePage2Child8 {
+    position: absolute;
+    top: 457px;
+    left: 230px;
+    box-shadow: 0px 2px 3px 5px #0048ff;
+    border-radius: 10px;
+    background-color: #000;
+    border: 1px solid #0048ff;
+    box-sizing: border-box;
+    width: 158px;
+    height: 119px;
+    opacity: 0.2;
+}
+.c1fe5c9b7aedc832d72bd6086df66Icon {
+    position: absolute;
+    top: 468px;
+    left: 84px;
+    border-radius: 50%;
+    width: 71px;
+    height: 71px;
+    object-fit: cover;
+}
+.d55a1163888d5dc9ed2e21f6bb82fcIcon {
+    position: absolute;
+    top: 468px;
+    left: 273px;
+    border-radius: 50%;
+    width: 71px;
+    height: 71px;
+    object-fit: cover;
+}
+.homePage2Child9 {
+    position: absolute;
+    top: 559px;
+    left: 54px;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 135px;
+    height: 41px;
+}
+.homePage2Child10 {
+    position: absolute;
+    top: 559px;
+    left: 241px;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 135px;
+    height: 41px;
+}
+.nft {
+    position: absolute;
+    top: 565px;
+    left: 95px;
+    font-size: 24px;
+    letter-spacing: 0.09em;
+    display: inline-block;
+    font-family: Rambla;
+    width: 76px;
+    height: 35px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.stake {
+    position: absolute;
+    top: 565px;
+    left: 274px;
+    font-size: 24px;
+    letter-spacing: 0.09em;
+    display: inline-block;
+    font-family: Rambla;
+    width: 115px;
+    height: 35px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.homePage2 {
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    height: 926px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: Krub;
+}
+

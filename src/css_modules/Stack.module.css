@@ -1,0 +1,249 @@
+.b {
+    position: absolute;
+    top: 11px;
+    left: 14px;
+}
+.vectorIcon {
+    position: absolute;
+    height: 1.3%;
+    width: 3.27%;
+    top: 13.07%;
+    right: 54.67%;
+    bottom: 85.64%;
+    left: 42.06%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon1 {
+    position: absolute;
+    height: 1.54%;
+    width: 3.41%;
+    top: 1.07%;
+    right: 20.02%;
+    bottom: 97.39%;
+    left: 76.57%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon2 {
+    position: absolute;
+    height: 1.33%;
+    width: 4.51%;
+    top: 1.35%;
+    right: 13.51%;
+    bottom: 97.32%;
+    left: 81.98%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon3 {
+    position: absolute;
+    height: 1.54%;
+    width: 5.84%;
+    top: 1.29%;
+    right: 5.22%;
+    bottom: 97.16%;
+    left: 88.94%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.vectorIcon4 {
+    position: absolute;
+    height: 3.06%;
+    width: 6.61%;
+    top: 0.54%;
+    right: 4.84%;
+    bottom: 96.4%;
+    left: 88.55%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.stack9Child {
+    position: absolute;
+    top: 855px;
+    left: 426px;
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 15px 0px 0px;
+    background-color: #fff;
+    width: 428px;
+    height: 72px;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.vectorIcon5 {
+    position: absolute;
+    height: 3.89%;
+    width: 8.64%;
+    top: 94.38%;
+    right: 85.51%;
+    bottom: 1.73%;
+    left: 5.84%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+.vectorIcon6 {
+    position: absolute;
+    height: 4.05%;
+    width: 7.45%;
+    top: 94.14%;
+    right: 8.55%;
+    bottom: 1.81%;
+    left: 84%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon7 {
+    position: absolute;
+    height: 3.25%;
+    width: 9.11%;
+    top: 95.11%;
+    right: 24.3%;
+    bottom: 1.64%;
+    left: 66.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon8 {
+    position: absolute;
+    height: 3.25%;
+    width: 9.11%;
+    top: 93.84%;
+    right: 24.3%;
+    bottom: 2.9%;
+    left: 66.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vectorIcon9 {
+    position: absolute;
+    height: 1.87%;
+    width: 4.56%;
+    top: 95.16%;
+    right: 28.56%;
+    bottom: 2.98%;
+    left: 66.88%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.icon {
+    position: absolute;
+    top: 846px;
+    left: 75px;
+    width: 119px;
+    height: 77px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.icon1 {
+    position: absolute;
+    top: 847px;
+    left: 158px;
+    width: 114px;
+    height: 87px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.vectorIcon10 {
+    position: absolute;
+    height: 1.43%;
+    width: 5.16%;
+    top: 91.89%;
+    right: 26.38%;
+    bottom: 6.68%;
+    left: 68.46%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.stack9Item {
+    position: absolute;
+    height: 1.08%;
+    width: 2.34%;
+    top: 91.69%;
+    right: 27.79%;
+    bottom: 7.23%;
+    left: 69.88%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.defd693f837df458c6edad61Icon {
+    position: absolute;
+    top: 231px;
+    left: 0px;
+    width: 429px;
+    height: 454px;
+    object-fit: cover;
+}
+.icon2 {
+    position: absolute;
+    top: 404px;
+    left: -15px;
+    width: 441px;
+    height: 207px;
+    object-fit: cover;
+}
+.icon3 {
+    position: absolute;
+    top: 563px;
+    left: -11px;
+    width: 441px;
+    height: 207px;
+    object-fit: cover;
+}
+.e4122042b870e719eb816ec56dd51c {
+    position: absolute;
+    top: 0px;
+    left: 46px;
+    width: 337px;
+    height: 297px;
+}
+.earn {
+    font-size: 32px;
+}
+.earnRewardsEffortlesslyWith {
+    margin: 0;
+}
+.options {
+    font-size: 24px;
+}
+.earnRewardsEffortlesslyContainer {
+    position: absolute;
+    top: 718px;
+    left: 32px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.icon4 {
+    position: absolute;
+    top: 32px;
+    left: -27px;
+    width: 483px;
+    height: 314px;
+    object-fit: cover;
+}
+.stack9 {
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    height: 926px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: Krub;
+}
+
