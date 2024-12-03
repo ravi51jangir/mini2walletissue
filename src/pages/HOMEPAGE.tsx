@@ -1,6 +1,8 @@
 import { FunctionComponent, useCallback } from 'react';
 import styles from '../css_modules/HOMEPAGE.module.css';
-import {images} from '../StoreImages/StoreImages';
+import { images } from '../StoreImages/StoreImages';
+
+
 
 
 const HOMEPAGE:FunctionComponent = () => {
@@ -11,55 +13,42 @@ const HOMEPAGE:FunctionComponent = () => {
   	
   	return (
     		<div className={styles.homePage1}>
-      			<b className={styles.b}>10:00</b>
-      			<img className={styles.imageIcon} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon1} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon2} alt="" src="Vector.svg" />
-      			<div className={styles.homePage1Child} />
-      			<div className={styles.homePage1Item} />
-      			<img className={styles.vectorIcon3} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon4} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon5} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon6} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon7} alt="" src="Vector.svg" />
+      			<img className={styles.altcoinbgIcon} alt="" src={images.AltcoinBg} />
+      			<div className={styles.profilerectangle} />
+      			<div className={styles.walletrectangle} />
+      			<img className={styles.userlogoIcon} alt="" src={images.UserLogo} />
       			<b className={styles.wxyz}>WXYZ</b>
       			<b className={styles.connectWallet}>CONNECT WALLET</b>
-      			<img className={styles.vectorIcon8} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon9} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon10} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon11} alt="" src="Vector.svg" />
-      			<div className={styles.homePage1Inner} />
-      			<div className={styles.rectangleDiv} />
-      			<img className={styles.icon} alt="" src={images.DaysimageIcon} />
+      			<img className={styles.useropenicon} alt="" src={images.UserOpenIcon} />
+      			<img className={styles.walleticon} alt="" src={images.WalletIcon} />
+      			<div className={styles.altcoinrec} />
+      			<div className={styles.tokenpricerec} />
+      			<img className={styles.days12leftIcon} alt="" src={images.Days12Left} />
       			<b className={styles.altcoinist}>ALTCOINIST</b>
-      			<div className={styles.ellipseDiv} />
-      			<div className={styles.homePage1Child1} onClick={onEllipseClick} />
-      			<div className={styles.homePage1Child2} />
-      			<div className={styles.homePage1Child3} />
-      			<img className={styles.vectorIcon12} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon13} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon14} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon15} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon16} alt="" src="Vector.svg" />
-      			<div className={styles.homePage1Child4} />
+      			<div className={styles.homePage1Child} />
+      			<div className={styles.homePage1Item} onClick={onEllipseClick} />
+      			<div className={styles.homePage1Inner} />
+      			<img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground}  />
+      			<img className={styles.homeButtonIcon} alt="" src={images.HomeButton} />
+      			<img className={styles.stackButtonIcon} alt="" src={images.StackButton} />
+      			<img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons} />
       			<b className={styles.apply}>Apply To Organize ICO</b>
       			<div className={styles.apply1}>Apply to organize an ICO by ensuring compliance with legal and regulatory requirements.</div>
-      			<img className={styles.icon1} alt="" src={images.AImage} />
-      			<img className={styles.icon2} alt="" src={images.imageIcon} />
+      			<img className={styles.altcoinimgIcon} alt="" src={images.AltcoinImg} />
+      			<img className={styles.activeborderimageIcon} alt="" src={images.ActiveBorderImage} />
       			<b className={styles.active}>ACTIVE</b>
-      			<img className={styles.icon3} alt="" src="1 1210688.png" />
-      			<img className={styles.icon4} alt="" src="2 1723.png" onClick={onEllipseClick} />
-      			<img className={styles.icon5} alt="" src="1 1210690.png" onClick={onEllipseClick} />
-      			<img className={styles.vectorIcon17} alt="" src="Vector.svg" />
+      			<img className={styles.applynowIcon} alt="" src={images.ApplyNow} />
+      			<img className={styles.icoButtonIcon} alt="" src={images.ICOButton} onClick={onEllipseClick} />
+      			<img className={styles.nftButtonIcon} alt="" src={images.NFTButton} onClick={onEllipseClick} />
+      			<img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton} />
       			<b className={styles.tokenPrice}>TOKEN PRICE</b>
-      			<b className={styles.b1}>
+      			<b className={styles.b}>
         				<span className={styles.txt}>
           					<p className={styles.p}>{`10/11/2024         `}</p>
           					<p className={styles.p1}>16:30</p>
         				</span>
       			</b>
-      			<b className={styles.b2}>
+      			<b className={styles.b1}>
         				<span className={styles.txt}>
           					<p className={styles.p}>{`30/11/2024         `}</p>
           					<p className={styles.p1}>16:30</p>
@@ -67,33 +56,21 @@ const HOMEPAGE:FunctionComponent = () => {
       			</b>
       			<b className={styles.d02h20m}>12d 02h 20m 48s LEFT</b>
       			<b className={styles.usdt}>0.009122 USDT</b>
-      			<img className={styles.vectorIcon18} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon19} alt="" src="Vector.svg" />
-      			<div className={styles.homePage1Child5} />
-      			<div className={styles.homePage1Child6} />
-      			<img className={styles.vectorIcon20} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon21} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon22} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon23} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon24} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon25} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon26} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon27} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon28} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon29} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon30} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon31} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon32} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon33} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon34} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon35} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon36} alt="" src="Vector.svg" />
-      			<div className={styles.homePage1Child7} />
-      			<div className={styles.homePage1Child8} />
-      			<img className={styles.c1fe5c9b7aedc832d72bd6086df66Icon} alt="" src={images.NftimageIcon} />
-      			<img className={styles.d55a1163888d5dc9ed2e21f6bb82fcIcon} alt="" src={images.StakeimageIcon} />
-      			<div className={styles.homePage1Child9} onClick={onEllipseClick} />
-      			<div className={styles.homePage1Child10} onClick={onEllipseClick} />
+      			<img className={styles.mutliplediscIcon} alt="" src={images.MutlipleDisc} />
+      			<img className={styles.discIcon} alt="" src={images.Disc} />
+      			<div className={styles.full} />
+      			<div className={styles.full80} />
+      			<img className={styles.calenderIcon} alt="" src={images.calender} />
+      			<img className={styles.calenderIcon1} alt="" src={images.calender}/>
+      			<img className={styles.clockIcon} alt="" src={images.clock} />
+      			<img className={styles.clockIcon1} alt="" src={images.clock} />
+      			<img className={styles.timerIcon} alt="" src={images.Timer} />
+      			<div className={styles.nftimagerec} />
+      			<div className={styles.stakeimagerec} />
+      			<img className={styles.nftimageIcon} alt="" src={images.NftImage} />
+      			<img className={styles.stakeimageIcon} alt="" src={images.StakeImage} />
+      			<div className={styles.nfttextrec} onClick={onEllipseClick} />
+      			<div className={styles.rectangleDiv} onClick={onEllipseClick} />
       			<b className={styles.nft}>NFT</b>
       			<b className={styles.stake}>STAKE</b>
     		</div>);

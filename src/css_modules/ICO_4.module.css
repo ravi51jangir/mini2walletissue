@@ -1,34 +1,4 @@
-.b {
-    position: absolute;
-    top: 11px;
-    left: 14px;
-    font-size: 14px;
-}
-.vectorIcon {
-    position: absolute;
-    height: 1.54%;
-    width: 3.41%;
-    top: 1.07%;
-    right: 20.02%;
-    bottom: 97.39%;
-    left: 76.57%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon1 {
-    position: absolute;
-    height: 1.33%;
-    width: 4.51%;
-    top: 1.35%;
-    right: 13.51%;
-    bottom: 97.32%;
-    left: 81.98%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.ico4Child {
+.profilerectangle {
     position: absolute;
     top: 58px;
     left: 14px;
@@ -40,7 +10,7 @@
     width: 140px;
     height: 39px;
 }
-.ico4Item {
+.goalrectangle {
     position: absolute;
     top: 217px;
     left: 263px;
@@ -50,7 +20,7 @@
     width: 130px;
     height: 34px;
 }
-.ico4Inner {
+.goalrectangle1 {
     position: absolute;
     top: 381px;
     left: 261px;
@@ -60,7 +30,7 @@
     width: 130px;
     height: 34px;
 }
-.rectangleDiv {
+.goalrectangle2 {
     position: absolute;
     top: 546px;
     left: 261px;
@@ -70,7 +40,7 @@
     width: 130px;
     height: 34px;
 }
-.ico4Child1 {
+.goalrectangle3 {
     position: absolute;
     top: 707px;
     left: 261px;
@@ -80,7 +50,7 @@
     width: 130px;
     height: 34px;
 }
-.ico4Child2 {
+.walletrectangle {
     position: absolute;
     top: 57px;
     left: 245px;
@@ -92,64 +62,13 @@
     width: 172px;
     height: 40px;
 }
-.vectorIcon2 {
+.userlogoIcon {
     position: absolute;
-    height: 1.54%;
-    width: 5.84%;
-    top: 1.29%;
-    right: 5.22%;
-    bottom: 97.16%;
-    left: 88.94%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: contain;
-}
-.vectorIcon3 {
-    position: absolute;
-    height: 3.06%;
-    width: 6.61%;
-    top: 0.54%;
-    right: 4.84%;
-    bottom: 96.4%;
-    left: 88.55%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: contain;
-}
-.vectorIcon4 {
-    position: absolute;
-    height: 2.32%;
-    width: 5.02%;
-    top: 7.05%;
-    right: 89.31%;
-    bottom: 90.63%;
-    left: 5.67%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon5 {
-    position: absolute;
-    height: 4.51%;
-    width: 10.21%;
-    top: 6.18%;
-    right: 86.45%;
-    bottom: 89.31%;
-    left: 3.34%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    opacity: 0.2;
-}
-.vectorIcon6 {
-    position: absolute;
-    height: 4.51%;
-    width: 10.21%;
+    height: 4.63%;
+    width: 10.49%;
     top: 6.06%;
-    right: 86.72%;
-    bottom: 89.43%;
+    right: 86.44%;
+    bottom: 89.31%;
     left: 3.07%;
     max-width: 100%;
     overflow: hidden;
@@ -173,7 +92,7 @@
     width: 135px;
     height: 22px;
 }
-.vectorIcon7 {
+.useropenicon {
     position: absolute;
     height: 0.97%;
     width: 1.59%;
@@ -186,37 +105,13 @@
     max-height: 100%;
     object-fit: contain;
 }
-.vectorIcon8 {
+.walleticon {
     position: absolute;
-    height: 1.64%;
+    height: 2.06%;
     width: 4.91%;
-    top: 7.79%;
+    top: 7.37%;
     right: 5.72%;
     bottom: 90.57%;
-    left: 89.37%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon9 {
-    position: absolute;
-    height: 0.13%;
-    width: 0.28%;
-    top: 8.55%;
-    right: 6.81%;
-    bottom: 91.32%;
-    left: 92.91%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon10 {
-    position: absolute;
-    height: 0.68%;
-    width: 4.09%;
-    top: 7.37%;
-    right: 6.54%;
-    bottom: 91.95%;
     left: 89.37%;
     max-width: 100%;
     overflow: hidden;
@@ -518,7 +413,7 @@
     height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.ellipseDiv {
+.bovinverseimageborder {
     position: absolute;
     top: 210px;
     left: 35px;
@@ -528,7 +423,7 @@
     width: 56px;
     height: 56px;
 }
-.ico4Child3 {
+.chirplayimageborder {
     position: absolute;
     top: 374px;
     left: 33px;
@@ -538,7 +433,7 @@
     width: 56px;
     height: 56px;
 }
-.ico4Child4 {
+.metacloudimageborder {
     position: absolute;
     top: 539px;
     left: 33px;
@@ -548,7 +443,7 @@
     width: 56px;
     height: 56px;
 }
-.ico4Child5 {
+.inshapeimageborder {
     position: absolute;
     top: 700px;
     left: 33px;
@@ -558,7 +453,7 @@
     width: 56px;
     height: 56px;
 }
-.b1 {
+.b {
     position: absolute;
     top: 352px;
     left: 35px;
@@ -570,7 +465,7 @@
     width: 361px;
     height: 11px;
 }
-.b2 {
+.b1 {
     position: absolute;
     top: 517px;
     left: 35px;
@@ -582,7 +477,7 @@
     width: 361px;
     height: 14px;
 }
-.b3 {
+.b2 {
     position: absolute;
     top: 681px;
     left: 35px;
@@ -594,19 +489,15 @@
     width: 361px;
     height: 11px;
 }
-.ico4Child6 {
+.buttonsBackground {
     position: absolute;
-    top: 853.07px;
-    left: 429px;
-    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px 15px 0px 0px;
-    background-color: #fff;
-    width: 428px;
-    height: 72px;
-    transform:  rotate(180deg);
-    transform-origin: 0 0;
-}
-.vectorIcon11 {
+    top: 855px;
+  
+  
+   
+    
+  }
+.homeButtonIcon {
     position: absolute;
     height: 3.89%;
     width: 8.64%;
@@ -619,7 +510,7 @@
     max-height: 100%;
     cursor: pointer;
 }
-.vectorIcon12 {
+.notificationButtonIcon {
     position: absolute;
     height: 4.05%;
     width: 7.45%;
@@ -631,67 +522,31 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon13 {
+.stackButtonIcon {
     position: absolute;
-    height: 3.25%;
-    width: 9.11%;
-    top: 94.9%;
-    right: 23.6%;
-    bottom: 1.85%;
-    left: 67.29%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon14 {
-    position: absolute;
-    height: 3.25%;
+    height: 4.52%;
     width: 9.11%;
     top: 93.64%;
     right: 23.6%;
-    bottom: 3.11%;
+    bottom: 1.84%;
     left: 67.29%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon15 {
+.cursorbuttonsIcon {
     position: absolute;
-    height: 1.87%;
-    width: 4.56%;
-    top: 94.95%;
-    right: 27.86%;
-    bottom: 3.18%;
-    left: 67.58%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon16 {
-    position: absolute;
-    height: 1.43%;
+    height: 1.63%;
     width: 5.16%;
-    top: 91.79%;
+    top: 91.58%;
     right: 66.81%;
     bottom: 6.79%;
     left: 28.02%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-    object-fit: contain;
 }
-.ico4Child7 {
-    position: absolute;
-    height: 1.08%;
-    width: 2.34%;
-    top: 91.58%;
-    right: 68.22%;
-    bottom: 7.34%;
-    left: 29.44%;
-    border-radius: 50%;
-    background-color: #fff;
-}
-.icon {
+.icoButtonIcon {
     position: absolute;
     top: 844.07px;
     left: 78px;
@@ -699,7 +554,7 @@
     height: 77px;
     object-fit: cover;
 }
-.icon1 {
+.nftButtonIcon {
     position: absolute;
     top: 845.07px;
     left: 161px;
@@ -708,7 +563,7 @@
     object-fit: cover;
     cursor: pointer;
 }
-.ico4Child8 {
+.bovinversedark {
     position: absolute;
     top: 315px;
     left: 41px;
@@ -717,7 +572,7 @@
     width: 348px;
     height: 8px;
 }
-.ico4Child9 {
+.chirplaydark {
     position: absolute;
     top: 479px;
     left: 39px;
@@ -726,7 +581,7 @@
     width: 348px;
     height: 8px;
 }
-.ico4Child10 {
+.metaclouddark {
     position: absolute;
     top: 644px;
     left: 39px;
@@ -735,7 +590,7 @@
     width: 348px;
     height: 8px;
 }
-.ico4Child11 {
+.inshapedark {
     position: absolute;
     top: 805px;
     left: 39px;
@@ -744,7 +599,7 @@
     width: 348px;
     height: 8px;
 }
-.ico4Child12 {
+.bovinverse1 {
     position: absolute;
     top: 315px;
     left: 41px;
@@ -753,7 +608,7 @@
     width: 130px;
     height: 8px;
 }
-.ico4Child13 {
+.chirplay1 {
     position: absolute;
     top: 479px;
     left: 39px;
@@ -762,7 +617,7 @@
     width: 76px;
     height: 8px;
 }
-.ico4Child14 {
+.metacloud1 {
     position: absolute;
     top: 644px;
     left: 39px;
@@ -771,7 +626,7 @@
     width: 155px;
     height: 8px;
 }
-.ico4Child15 {
+.inshape1 {
     position: absolute;
     top: 805px;
     left: 39px;
@@ -780,7 +635,7 @@
     width: 155px;
     height: 8px;
 }
-.icon2 {
+.metacloudimageIcon {
     position: absolute;
     top: 545px;
     left: 39px;
@@ -788,7 +643,7 @@
     height: 44px;
     object-fit: cover;
 }
-.icon3 {
+.inshapeimageIcon {
     position: absolute;
     top: 712px;
     left: 44px;
@@ -796,7 +651,7 @@
     height: 35px;
     object-fit: cover;
 }
-.vectorIcon17 {
+.dropdownico4Icon {
     position: absolute;
     height: 0.81%;
     width: 2.99%;
@@ -809,30 +664,11 @@
     max-height: 100%;
     object-fit: contain;
 }
-.vectorIcon18 {
-    position: absolute;
-    height: 1.3%;
-    width: 3.27%;
-    top: 13.07%;
-    right: 54.67%;
-    bottom: 85.64%;
-    left: 42.06%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.ico4Child16 {
+.auerectangle {
     position: absolute;
     top: 126px;
-    left: 428px;
-    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
-    background-color: #fff;
-    width: 428px;
-    height: 56px;
-    transform:  rotate(180deg);
-    transform-origin: 0 0;
 }
-.ico4Child17 {
+.upcomingrectangle {
     position: absolute;
     top: 138px;
     left: 148px;
@@ -886,11 +722,11 @@
     height: 19px;
     cursor: pointer;
 }
-.vectorIcon19 {
+.upcomingicon {
     position: absolute;
-    height: 1.47%;
+    height: 2.04%;
     width: 4.21%;
-    top: 16.23%;
+    top: 15.66%;
     right: 31.07%;
     bottom: 82.3%;
     left: 64.72%;
@@ -898,31 +734,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon20 {
-    position: absolute;
-    height: 1.47%;
-    width: 4.21%;
-    top: 15.66%;
-    right: 31.07%;
-    bottom: 82.87%;
-    left: 64.72%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon21 {
-    position: absolute;
-    height: 0.84%;
-    width: 2.1%;
-    top: 16.25%;
-    right: 33.04%;
-    bottom: 82.91%;
-    left: 64.86%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.ico4Child18 {
+.auerectangleborder {
     position: absolute;
     top: 187px;
     left: 0px;
@@ -930,7 +742,7 @@
     width: 428px;
     height: 5px;
 }
-.ico4Child19 {
+.auerectanglestatus {
     position: absolute;
     top: 187px;
     left: 149px;
@@ -938,7 +750,7 @@
     width: 154px;
     height: 5px;
 }
-.bvt2Icon {
+.bovinverseimageIcon {
     position: absolute;
     top: 211px;
     left: 32px;
@@ -946,7 +758,7 @@
     height: 53px;
     object-fit: cover;
 }
-.icon4 {
+.chirplayimageIcon {
     position: absolute;
     top: 380px;
     left: 40px;

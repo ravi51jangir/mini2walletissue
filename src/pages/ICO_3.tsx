@@ -2,6 +2,9 @@ import { FunctionComponent, useCallback } from 'react';
 import styles from '../css_modules/ICO.module.css';
 import {images} from '../StoreImages/StoreImages';
 
+
+
+
 const ICO:FunctionComponent = () => {
   	
   	const onUPCOMINGTextClick = useCallback(() => {
@@ -10,37 +13,25 @@ const ICO:FunctionComponent = () => {
   	
   	return (
     		<div className={styles.ico3}>
-      			<b className={styles.b}>10:00</b>
-      			<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon1} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon2} alt="" src="Vector.svg" />
-      			<div className={styles.ico3Child} />
-      			<div className={styles.ico3Item} />
-      			<div className={styles.ico3Inner} />
-      			<div className={styles.rectangleDiv} />
-      			<div className={styles.ico3Child1} />
-      			<div className={styles.ico3Child2} />
-      			<img className={styles.vectorIcon3} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon4} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon5} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon6} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon7} alt="" src="Vector.svg" />
+      			<div className={styles.profilerectangle} />
+      			<div className={styles.pricerectangle} />
+      			<div className={styles.pricerectangle1} />
+      			<div className={styles.pricerectangle2} />
+      			<div className={styles.pricerectangle3} />
+      			<div className={styles.walletrectangle} />
+      			<img className={styles.userlogoIcon} alt="" src="UserLogo.svg" />
       			<b className={styles.wxyz}>WXYZ</b>
       			<b className={styles.connectWallet}>CONNECT WALLET</b>
-      			<img className={styles.vectorIcon8} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon9} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon10} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon11} alt="" src="Vector.svg" />
-      			<div className={styles.ico3Child3} />
-      			<div className={styles.ico3Child4} />
+      			<img className={styles.useropenicon} alt="" src="UserOpenIcon.svg" />
+      			<img className={styles.walleticon} alt="" src="WalletIcon.svg" />
+      			<img className={styles.auerectangle} alt="" src={images.AUERectangle}  />
+      			<div className={styles.activerectangle} />
       			<b className={styles.active}>{`ACTIVE `}</b>
       			<b className={styles.upcoming} onClick={onUPCOMINGTextClick}>UPCOMING</b>
       			<b className={styles.ended} onClick={onUPCOMINGTextClick}>ENDED</b>
-      			<img className={styles.vectorIcon12} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon13} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon14} alt="" src="Vector.svg" />
-      			<div className={styles.ico3Child5} />
-      			<div className={styles.ico3Child6} />
+      			<img className={styles.activeicon} alt="" src="ActiveIcon.svg" />
+      			<div className={styles.auerectanglestatus} />
+      			<div className={styles.auerectangleborder} />
       			<div className={styles.usdt}>$1,280 USDT</div>
       			<div className={styles.usdt1}>$1,000 USDT</div>
       			<div className={styles.usdt2}>$900 USDT</div>
@@ -69,37 +60,34 @@ const ICO:FunctionComponent = () => {
       			<div className={styles.dLeft1}>11d left</div>
       			<div className={styles.dLeft2}>19d left</div>
       			<div className={styles.dLeft3}>19d left</div>
-      			<div className={styles.ellipseDiv} />
-      			<div className={styles.ico3Child7} />
-      			<div className={styles.ico3Child8} />
-      			<div className={styles.ico3Child9} />
+      			<div className={styles.inshapeimageborder} />
+      			<div className={styles.arrakisimageborder} />
+      			<div className={styles.metacloudimageborder} />
+      			<div className={styles.inshapeimageborder1} />
+      			<b className={styles.b}>.........................................................................</b>
       			<b className={styles.b1}>.........................................................................</b>
       			<b className={styles.b2}>.........................................................................</b>
-      			<b className={styles.b3}>.........................................................................</b>
-      			<img className={styles.icon} alt="" src="17342 1.png" />
-      			<div className={styles.ico3Child10} />
-      			<img className={styles.vectorIcon15} alt="" src="Vector.svg" onClick={onUPCOMINGTextClick} />
-      			<img className={styles.vectorIcon16} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon17} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon18} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon19} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon20} alt="" src="Vector.svg" />
-      			<div className={styles.ico3Child11} />
-      			<img className={styles.icon1} alt="" src="2 1724.png" />
-      			<img className={styles.icon2} alt="" src="1 1210691.png" onClick={onUPCOMINGTextClick} />
-      			<div className={styles.ico3Child12} />
-      			<div className={styles.ico3Child13} />
-      			<div className={styles.ico3Child14} />
-      			<div className={styles.ico3Child15} />
-      			<div className={styles.ico3Child16} />
-      			<div className={styles.ico3Child17} />
-      			<div className={styles.ico3Child18} />
-      			<div className={styles.ico3Child19} />
-      			<img className={styles.screenshot202411282156491} alt="" src="Screenshot 2024-11-28 215649 1.png" />
-      			<img className={styles.icon3} alt="" src="101210687 2.png" />
-      			<img className={styles.icon4} alt="" src="17342 3.png" />
-      			<img className={styles.vectorIcon21} alt="" src="Vector.svg" />
-      			<b className={styles.b4}>
+      			<img className={styles.inshapeimageIcon} alt="" src="inShapeImage.png" />
+      			<img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground}  />
+      			<img className={styles.homeButtonIcon} alt="" src="Home Button.svg" onClick={onUPCOMINGTextClick} />
+      			<img className={styles.notificationButtonIcon} alt="" src="Notification Button.svg" />
+      			<img className={styles.stackButtonIcon} alt="" src="Stack Button.svg" />
+      			<img className={styles.cursorbuttonsIcon} alt="" src="CursorButtons.svg" />
+      			<img className={styles.icoButtonIcon} alt="" src="ICO Button.png" />
+      			<img className={styles.nftButtonIcon} alt="" src="NFT Button.png" onClick={onUPCOMINGTextClick} />
+      			<div className={styles.inshapedark} />
+      			<div className={styles.arrakisdark} />
+      			<div className={styles.metaclouddark} />
+      			<div className={styles.inshapedark1} />
+      			<div className={styles.inshape2} />
+      			<div className={styles.arrakis1} />
+      			<div className={styles.metacloud1} />
+      			<div className={styles.inshape3} />
+      			<img className={styles.arrakisimageIcon} alt="" src="ArrakisImage.png" />
+      			<img className={styles.metacloudimageIcon} alt="" src="MetaCloudImage.png" />
+      			<img className={styles.inshapeimageIcon1} alt="" src="inShapeImage.png" />
+      			<img className={styles.dropdownico4Icon} alt="" src="DropDownIco_4.svg" />
+      			<b className={styles.b3}>
         				<span className={styles.txt}>
           					<p className={styles.p}>{`30/11/2024         `}</p>
           					<p className={styles.p1}>16:30</p>

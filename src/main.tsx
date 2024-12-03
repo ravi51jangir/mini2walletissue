@@ -85,7 +85,7 @@ function App() {
         {/* Redirect any unknown routes to home */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-      <w3m-button />
+      {/* <w3m-button /> */}
     </div>
   );
 }

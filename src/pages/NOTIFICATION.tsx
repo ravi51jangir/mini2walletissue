@@ -1,56 +1,52 @@
 import { FunctionComponent, useCallback } from 'react';
 import styles from '../css_modules/NOTIFICATION.module.css';
+import {images} from '../StoreImages/StoreImages';
+
 
 
 
 const NOTIFICATION:FunctionComponent = () => {
   	
-  	const onVectorIconClick = useCallback(() => {
+  	const onHomeButtonIconClick = useCallback(() => {
     		// Add your code here
   	}, []);
+
+
+  
   	
   	return (
     		<div className={styles.notification6}>
-      			<b className={styles.b}>10:00</b>
-      			<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon1} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon2} alt="" src="Vector.svg" />
-      			<div className={styles.notification6Child} />
-      			<div className={styles.notification6Item} />
-      			<img className={styles.vectorIcon3} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon4} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon5} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon6} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon7} alt="" src="Vector.svg" />
+      			<div className={styles.profilerectangle} />
+      			<div className={styles.walletrectangle} />
+      			<img className={styles.userlogoIcon} alt="" src={images.UserLogo} />
       			<b className={styles.wxyz}>WXYZ</b>
       			<b className={styles.connectWallet}>CONNECT WALLET</b>
-      			<img className={styles.vectorIcon8} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon9} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon10} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon11} alt="" src="Vector.svg" />
-      			<div className={styles.notification6Inner} />
+      			<img className={styles.useropenicon} alt="" src={images.UserOpenIcon} />
+      			<img className={styles.walleticon} alt="" src={images.WalletIcon}  />
+				<img className={styles.notificationrectangle} alt="" src={images.NotificationRectangle}  />
+      	
       			<b className={styles.notifications}>NOTIFICATIONS</b>
-      			<img className={styles.vectorIcon12} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon13} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon14} alt="" src="Vector.svg" />
-      			<div className={styles.rectangleDiv} />
-      			<div className={styles.notification6Child1} />
-      			<div className={styles.notification6Child2} />
-      			<div className={styles.notification6Child3} />
-      			<div className={styles.notification6Child4} />
-      			<div className={styles.notification6Child5} />
-      			<div className={styles.notification6Child6} />
-      			<div className={styles.notification6Child7} />
-      			<div className={styles.notification6Child8} />
-      			<div className={styles.notification6Child9} />
-      			<div className={styles.notification6Child10} />
-      			<div className={styles.notification6Child11} />
-      			<div className={styles.ellipseDiv} />
-      			<div className={styles.notification6Child12} />
-      			<div className={styles.notification6Child13} />
-      			<div className={styles.notification6Child14} />
-      			<div className={styles.notification6Child15} />
-      			<div className={styles.notification6Child16} />
+      			<img className={styles.notificationtexticon} alt="" src={images.NotificationTextIcon}  />
+
+				
+      			<div className={styles.newicolaunchrectangle} />
+      			<div className={styles.newicolaunchrectangle1} />
+      			<div className={styles.generalalertrectangle} />
+      			<div className={styles.updatesrectangle} />
+      			<div className={styles.updatesrectangle1} />
+      			<div className={styles.updatesrectangle2} />
+      			<div className={styles.newicolaunchsidebar} />
+      			<div className={styles.newicolaunchsidebar1} />
+      			<div className={styles.generalalertsidebar} />
+      			<div className={styles.updatessidebar} />
+      			<div className={styles.updatessidebar1} />
+      			<div className={styles.updatessidebar2} />
+      			<div className={styles.newicolaunchellipse} />
+      			<div className={styles.newicolaunchellipse1} />
+      			<div className={styles.generalalertsidebarellipse} />
+      			<div className={styles.updatesellipse} />
+      			<div className={styles.updatesellipse1} />
+      			<div className={styles.notification6Child} />
       			<b className={styles.newIcoLaunchesContainer}>
         				<span className={styles.newIcoLaunchesContainer1}>
           					<p className={styles.newIcoLaunches}>New ICO launches</p>
@@ -95,26 +91,26 @@ const NOTIFICATION:FunctionComponent = () => {
           					<p className={styles.newIcoLaunches}>&nbsp;</p>
         				</span>
       			</b>
+
+
       			<div className={styles.updateAlertCheck}>Update Alert: Check out the latest progress on your ICOs now!</div>
       			<div className={styles.updateAlertCheck1}>Update Alert: Check out the latest progress on your ICOs now!</div>
       			<div className={styles.updateAlertCheck2}>Update Alert: Check out the latest progress on your ICOs now!</div>
-      			<img className={styles.vectorIcon15} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon16} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon17} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon18} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon19} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon20} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon21} alt="" src="Vector.svg" />
-      			<div className={styles.notification6Child17} />
-      			<img className={styles.vectorIcon22} alt="" src="Vector.svg" onClick={onVectorIconClick} />
-      			<img className={styles.vectorIcon23} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon24} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon25} alt="" src="Vector.svg" />
-      			<img className={styles.vectorIcon26} alt="" src="Vector.svg" />
-      			<img className={styles.icon} alt="" src="2 1727.png" onClick={onVectorIconClick} />
-      			<img className={styles.icon1} alt="" src="1 1210694.png" onClick={onVectorIconClick} />
-      			<img className={styles.vectorIcon27} alt="" src="Vector.svg" />
-      			<div className={styles.notification6Child18} />
+      			<img className={styles.newicolaunchicon} alt="" src={images.NewIcoLaunchIcon}  />
+      			<img className={styles.newicolaunchicon} alt="" src={images.NewIcoLaunchIcon} />
+      			<img className={styles.updatesicon} alt="" src={images.UpdatesIcon}  />
+      			<img className={styles.updatesicon1} alt="" src={images.UpdatesIcon} />
+      			<img className={styles.updatesicon2} alt="" src={images.UpdatesIcon}  />
+      			<img className={styles.alerticon} alt="" src={images.AlertIcon}  />
+      			<img className={styles.downnotificationIcon} alt="" src={images.DownNotification}  />
+				<img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground}  />
+      	
+      			<img className={styles.homeButtonIcon} alt="" src={images.HomeButton}  onClick={onHomeButtonIconClick} />
+      			<img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton} />
+      			<img className={styles.stackButtonIcon} alt="" src={images.StackButton}  />
+      			<img className={styles.icoButtonIcon} alt="" src={images.ICOButton}  onClick={onHomeButtonIconClick} />
+      			<img className={styles.nftButtonIcon} alt="" src={images.NFTButton}  onClick={onHomeButtonIconClick} />
+      			<img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons}  />
     		</div>);
 };
 

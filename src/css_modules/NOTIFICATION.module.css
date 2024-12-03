@@ -1,47 +1,4 @@
-.b {
-    position: absolute;
-    top: 11px;
-    left: 14px;
-    font-size: 14px;
-    color: #fff;
-}
-.vectorIcon {
-    position: absolute;
-    height: 1.3%;
-    width: 3.27%;
-    top: 13.07%;
-    right: 54.67%;
-    bottom: 85.64%;
-    left: 42.06%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon1 {
-    position: absolute;
-    height: 1.54%;
-    width: 3.41%;
-    top: 1.07%;
-    right: 20.02%;
-    bottom: 97.39%;
-    left: 76.57%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon2 {
-    position: absolute;
-    height: 1.33%;
-    width: 4.51%;
-    top: 1.35%;
-    right: 13.51%;
-    bottom: 97.32%;
-    left: 81.98%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.notification6Child {
+.profilerectangle {
     position: absolute;
     top: 58px;
     left: 14px;
@@ -53,7 +10,7 @@
     width: 140px;
     height: 39px;
 }
-.notification6Item {
+.walletrectangle {
     position: absolute;
     top: 57px;
     left: 245px;
@@ -65,64 +22,13 @@
     width: 172px;
     height: 40px;
 }
-.vectorIcon3 {
+.userlogoIcon {
     position: absolute;
-    height: 1.54%;
-    width: 5.84%;
-    top: 1.29%;
-    right: 5.22%;
-    bottom: 97.16%;
-    left: 88.94%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: contain;
-}
-.vectorIcon4 {
-    position: absolute;
-    height: 3.06%;
-    width: 6.61%;
-    top: 0.54%;
-    right: 4.84%;
-    bottom: 96.4%;
-    left: 88.55%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: contain;
-}
-.vectorIcon5 {
-    position: absolute;
-    height: 2.32%;
-    width: 5.02%;
-    top: 7.05%;
-    right: 89.31%;
-    bottom: 90.63%;
-    left: 5.67%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon6 {
-    position: absolute;
-    height: 4.51%;
-    width: 10.21%;
-    top: 6.18%;
-    right: 86.45%;
-    bottom: 89.31%;
-    left: 3.34%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    opacity: 0.2;
-}
-.vectorIcon7 {
-    position: absolute;
-    height: 4.51%;
-    width: 10.21%;
+    height: 4.63%;
+    width: 10.49%;
     top: 6.06%;
-    right: 86.72%;
-    bottom: 89.43%;
+    right: 86.44%;
+    bottom: 89.31%;
     left: 3.07%;
     max-width: 100%;
     overflow: hidden;
@@ -148,7 +54,7 @@
     width: 135px;
     height: 22px;
 }
-.vectorIcon8 {
+.useropenicon {
     position: absolute;
     height: 0.97%;
     width: 1.59%;
@@ -161,11 +67,11 @@
     max-height: 100%;
     object-fit: contain;
 }
-.vectorIcon9 {
+.walleticon {
     position: absolute;
-    height: 1.64%;
+    height: 2.06%;
     width: 4.91%;
-    top: 7.79%;
+    top: 7.37%;
     right: 5.72%;
     bottom: 90.57%;
     left: 89.37%;
@@ -173,40 +79,10 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon10 {
-    position: absolute;
-    height: 0.13%;
-    width: 0.28%;
-    top: 8.55%;
-    right: 6.81%;
-    bottom: 91.32%;
-    left: 92.91%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon11 {
-    position: absolute;
-    height: 0.68%;
-    width: 4.09%;
-    top: 7.37%;
-    right: 6.54%;
-    bottom: 91.95%;
-    left: 89.37%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.notification6Inner {
+.notificationrectangle {
     position: absolute;
     top: 126px;
-    left: 428px;
-    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
-    background-color: #fff;
-    width: 428px;
-    height: 56px;
-    transform:  rotate(180deg);
-    transform-origin: 0 0;
+
 }
 .notifications {
     position: absolute;
@@ -221,43 +97,19 @@
     width: 164px;
     height: 18px;
 }
-.vectorIcon12 {
+.notificationtexticon {
     position: absolute;
-    height: 1.14%;
-    width: 1.14%;
+    height: 2.87%;
+    width: 5.56%;
     top: 15.28%;
-    right: 93.58%;
-    bottom: 83.57%;
+    right: 89.16%;
+    bottom: 81.85%;
     left: 5.28%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon13 {
-    position: absolute;
-    height: 2.75%;
-    width: 4.58%;
-    top: 15.4%;
-    right: 89.65%;
-    bottom: 81.85%;
-    left: 5.77%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon14 {
-    position: absolute;
-    height: 1.14%;
-    width: 1.17%;
-    top: 15.28%;
-    right: 89.15%;
-    bottom: 83.57%;
-    left: 9.69%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.rectangleDiv {
+.newicolaunchrectangle {
     position: absolute;
     top: 210px;
     left: 17px;
@@ -266,7 +118,7 @@
     width: 399px;
     height: 89px;
 }
-.notification6Child1 {
+.newicolaunchrectangle1 {
     position: absolute;
     top: 706px;
     left: 17px;
@@ -275,7 +127,7 @@
     width: 399px;
     height: 89px;
 }
-.notification6Child2 {
+.generalalertrectangle {
     position: absolute;
     top: 409px;
     left: 17px;
@@ -284,7 +136,7 @@
     width: 399px;
     height: 89px;
 }
-.notification6Child3 {
+.updatesrectangle {
     position: absolute;
     top: 309px;
     left: 17px;
@@ -293,7 +145,7 @@
     width: 399px;
     height: 89px;
 }
-.notification6Child4 {
+.updatesrectangle1 {
     position: absolute;
     top: 508px;
     left: 17px;
@@ -302,7 +154,7 @@
     width: 399px;
     height: 89px;
 }
-.notification6Child5 {
+.updatesrectangle2 {
     position: absolute;
     top: 607px;
     left: 17px;
@@ -311,7 +163,7 @@
     width: 399px;
     height: 89px;
 }
-.notification6Child6 {
+.newicolaunchsidebar {
     position: absolute;
     top: 210px;
     left: 17px;
@@ -319,7 +171,7 @@
     width: 7px;
     height: 89px;
 }
-.notification6Child7 {
+.newicolaunchsidebar1 {
     position: absolute;
     top: 706px;
     left: 17px;
@@ -327,7 +179,7 @@
     width: 7px;
     height: 89px;
 }
-.notification6Child8 {
+.generalalertsidebar {
     position: absolute;
     top: 409px;
     left: 17px;
@@ -335,7 +187,7 @@
     width: 7px;
     height: 89px;
 }
-.notification6Child9 {
+.updatessidebar {
     position: absolute;
     top: 309px;
     left: 17px;
@@ -343,7 +195,7 @@
     width: 7px;
     height: 89px;
 }
-.notification6Child10 {
+.updatessidebar1 {
     position: absolute;
     top: 508px;
     left: 17px;
@@ -351,7 +203,7 @@
     width: 7px;
     height: 89px;
 }
-.notification6Child11 {
+.updatessidebar2 {
     position: absolute;
     top: 607px;
     left: 17px;
@@ -359,7 +211,7 @@
     width: 7px;
     height: 89px;
 }
-.ellipseDiv {
+.newicolaunchellipse {
     position: absolute;
     top: 226px;
     left: 40px;
@@ -369,7 +221,7 @@
     width: 56px;
     height: 56px;
 }
-.notification6Child12 {
+.newicolaunchellipse1 {
     position: absolute;
     top: 722px;
     left: 40px;
@@ -379,7 +231,7 @@
     width: 56px;
     height: 56px;
 }
-.notification6Child13 {
+.generalalertsidebarellipse {
     position: absolute;
     top: 425px;
     left: 40px;
@@ -389,7 +241,7 @@
     width: 56px;
     height: 56px;
 }
-.notification6Child14 {
+.updatesellipse {
     position: absolute;
     top: 325px;
     left: 40px;
@@ -399,7 +251,7 @@
     width: 56px;
     height: 56px;
 }
-.notification6Child15 {
+.updatesellipse1 {
     position: absolute;
     top: 524px;
     left: 40px;
@@ -409,7 +261,7 @@
     width: 56px;
     height: 56px;
 }
-.notification6Child16 {
+.notification6Child {
     position: absolute;
     top: 623px;
     left: 40px;
@@ -569,7 +421,7 @@
     width: 259px;
     height: 26px;
 }
-.vectorIcon15 {
+.newicolaunchicon {
     position: absolute;
     height: 3%;
     width: 6.5%;
@@ -581,7 +433,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon16 {
+.newicolaunchicon1 {
     position: absolute;
     height: 3%;
     width: 6.5%;
@@ -593,7 +445,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon17 {
+.updatesicon {
     position: absolute;
     height: 3.05%;
     width: 9.02%;
@@ -605,7 +457,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon18 {
+.updatesicon1 {
     position: absolute;
     height: 3.05%;
     width: 9.02%;
@@ -617,7 +469,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon19 {
+.updatesicon2 {
     position: absolute;
     height: 3.05%;
     width: 9.02%;
@@ -629,7 +481,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon20 {
+.alerticon {
     position: absolute;
     height: 3.42%;
     width: 8.57%;
@@ -641,7 +493,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon21 {
+.downnotificationIcon {
     position: absolute;
     height: 0.81%;
     width: 2.99%;
@@ -654,19 +506,15 @@
     max-height: 100%;
     object-fit: contain;
 }
-.notification6Child17 {
+.buttonsBackground {
     position: absolute;
     top: 855px;
-    left: 426px;
-    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px 15px 0px 0px;
-    background-color: #fff;
-    width: 428px;
-    height: 72px;
-    transform:  rotate(180deg);
-    transform-origin: 0 0;
+
+
+   
+    
 }
-.vectorIcon22 {
+.homeButtonIcon {
     position: absolute;
     height: 3.89%;
     width: 8.64%;
@@ -679,7 +527,7 @@
     max-height: 100%;
     cursor: pointer;
 }
-.vectorIcon23 {
+.notificationButtonIcon {
     position: absolute;
     height: 4.05%;
     width: 7.45%;
@@ -691,43 +539,19 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon24 {
+.stackButtonIcon {
     position: absolute;
-    height: 3.25%;
-    width: 9.11%;
-    top: 95.11%;
-    right: 24.3%;
-    bottom: 1.64%;
-    left: 66.59%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon25 {
-    position: absolute;
-    height: 3.25%;
+    height: 4.52%;
     width: 9.11%;
     top: 93.84%;
     right: 24.3%;
-    bottom: 2.9%;
+    bottom: 1.63%;
     left: 66.59%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon26 {
-    position: absolute;
-    height: 1.87%;
-    width: 4.56%;
-    top: 95.16%;
-    right: 28.56%;
-    bottom: 2.98%;
-    left: 66.88%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.icon {
+.icoButtonIcon {
     position: absolute;
     top: 846px;
     left: 75px;
@@ -736,7 +560,7 @@
     object-fit: cover;
     cursor: pointer;
 }
-.icon1 {
+.nftButtonIcon {
     position: absolute;
     top: 847px;
     left: 158px;
@@ -745,29 +569,17 @@
     object-fit: cover;
     cursor: pointer;
 }
-.vectorIcon27 {
+.cursorbuttonsIcon {
     position: absolute;
-    height: 1.43%;
+    height: 1.63%;
     width: 5.16%;
-    top: 91.89%;
+    top: 91.69%;
     right: 10.02%;
     bottom: 6.68%;
     left: 84.82%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-    object-fit: contain;
-}
-.notification6Child18 {
-    position: absolute;
-    height: 1.08%;
-    width: 2.34%;
-    top: 91.69%;
-    right: 11.43%;
-    bottom: 7.23%;
-    left: 86.23%;
-    border-radius: 50%;
-    background-color: #fff;
 }
 .notification6 {
     width: 100%;

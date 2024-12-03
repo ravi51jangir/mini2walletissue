@@ -1,4 +1,4 @@
-.ab7d1d3309329a7c3bca9f83f65ecbIcon {
+.neutonimageIcon {
     position: absolute;
     top: 94px;
     left: 91px;
@@ -6,7 +6,7 @@
     height: 251px;
     object-fit: cover;
 }
-.icon {
+.neutonimagebg1Icon {
     position: absolute;
     top: 286px;
     left: -22px;
@@ -14,7 +14,7 @@
     height: 220px;
     object-fit: cover;
 }
-.icon1 {
+.neutonimagebg2Icon {
     position: absolute;
     top: 176px;
     left: -35px;
@@ -22,7 +22,7 @@
     height: 220px;
     object-fit: cover;
 }
-.icon2 {
+.neutonimagebg3Icon {
     position: absolute;
     top: 178px;
     left: -35px;
@@ -30,75 +30,15 @@
     height: 220px;
     object-fit: cover;
 }
-.b {
+.buttonsBackground {
     position: absolute;
-    top: 11px;
-    left: 14px;
-    font-size: 14px;
-}
-.vectorIcon {
-    position: absolute;
-    height: 1.33%;
-    width: 4.51%;
-    top: 1.35%;
-    right: 13.51%;
-    bottom: 97.32%;
-    left: 81.98%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon1 {
-    position: absolute;
-    height: 1.54%;
-    width: 3.41%;
-    top: 1.07%;
-    right: 20.02%;
-    bottom: 97.39%;
-    left: 76.57%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon2 {
-    position: absolute;
-    height: 1.54%;
-    width: 5.84%;
-    top: 1.29%;
-    right: 5.22%;
-    bottom: 97.16%;
-    left: 88.94%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: contain;
-}
-.vectorIcon3 {
-    position: absolute;
-    height: 3.06%;
-    width: 6.61%;
-    top: 0.54%;
-    right: 4.84%;
-    bottom: 96.4%;
-    left: 88.55%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: contain;
-}
-.homePage3Child {
-    position: absolute;
-    top: 854px;
-    left: 428px;
-    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px 15px 0px 0px;
-    background-color: #fff;
-    width: 428px;
-    height: 72px;
-    transform:  rotate(180deg);
-    transform-origin: 0 0;
-}
-.vectorIcon4 {
+    top: 855px;
+  
+  
+   
+    
+  }
+.homeButtonIcon {
     position: absolute;
     height: 3.89%;
     width: 8.64%;
@@ -111,7 +51,7 @@
     max-height: 100%;
     cursor: pointer;
 }
-.vectorIcon5 {
+.notificationButtonIcon {
     position: absolute;
     height: 4.05%;
     width: 7.45%;
@@ -123,65 +63,29 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon6 {
+.stackButtonIcon {
     position: absolute;
-    height: 3.25%;
-    width: 9.11%;
-    top: 95%;
-    right: 23.83%;
-    bottom: 1.75%;
-    left: 67.06%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon7 {
-    position: absolute;
-    height: 3.25%;
+    height: 4.52%;
     width: 9.11%;
     top: 93.74%;
     right: 23.83%;
-    bottom: 3.01%;
+    bottom: 1.74%;
     left: 67.06%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon8 {
+.cursorbuttonsIcon {
     position: absolute;
-    height: 1.87%;
-    width: 4.56%;
-    top: 95.05%;
-    right: 28.09%;
-    bottom: 3.08%;
-    left: 67.35%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon9 {
-    position: absolute;
-    height: 1.43%;
+    height: 1.63%;
     width: 5.16%;
-    top: 91.89%;
+    top: 91.68%;
     right: 86.91%;
-    bottom: 6.69%;
+    bottom: 6.68%;
     left: 7.93%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-    object-fit: contain;
-}
-.homePage3Item {
-    position: absolute;
-    height: 1.08%;
-    width: 2.34%;
-    top: 91.68%;
-    right: 88.32%;
-    bottom: 7.24%;
-    left: 9.35%;
-    border-radius: 50%;
-    background-color: #fff;
 }
 .listingDetails {
     position: absolute;
@@ -245,7 +149,7 @@
     height: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.homePage3Inner {
+.bitmartLogoellipse {
     position: absolute;
     top: 504px;
     left: 22px;
@@ -255,7 +159,7 @@
     width: 43px;
     height: 43px;
 }
-.ellipseDiv {
+.coindcxLogoellipse {
     position: absolute;
     top: 574px;
     left: 22px;
@@ -265,7 +169,7 @@
     width: 43px;
     height: 43px;
 }
-.coindcxLogo1Icon {
+.coindcxLogoIcon {
     position: absolute;
     top: 591px;
     left: 24px;
@@ -273,7 +177,7 @@
     height: 9px;
     object-fit: cover;
 }
-.bitmartLogov1RemovebgPreviIcon {
+.bitmartLogoIcon {
     position: absolute;
     top: 503px;
     left: 14px;
@@ -281,7 +185,7 @@
     height: 41px;
     object-fit: cover;
 }
-.b1 {
+.b {
     position: absolute;
     top: 553px;
     left: 25px;
@@ -290,7 +194,7 @@
     font-family: 'Times New Roman';
     color: rgba(255, 255, 255, 0.53);
 }
-.b2 {
+.b1 {
     position: absolute;
     top: 624px;
     left: 23px;
@@ -299,7 +203,7 @@
     font-family: 'Times New Roman';
     color: rgba(255, 255, 255, 0.53);
 }
-.vectorIcon10 {
+.dropdownIcon {
     position: absolute;
     height: 0.81%;
     width: 2.99%;
@@ -312,7 +216,7 @@
     max-height: 100%;
     object-fit: contain;
 }
-.rectangleDiv {
+.buynewtonrec {
     position: absolute;
     top: 688px;
     left: 35px;
@@ -323,7 +227,7 @@
     width: 187px;
     height: 91px;
 }
-.icon3 {
+.icoButtonIcon {
     position: absolute;
     top: 845px;
     left: 77px;
@@ -332,7 +236,7 @@
     object-fit: cover;
     cursor: pointer;
 }
-.icon4 {
+.nftButtonIcon {
     position: absolute;
     top: 846px;
     left: 160px;
@@ -341,7 +245,7 @@
     object-fit: cover;
     cursor: pointer;
 }
-.homePage3Child1 {
+.hardcap {
     position: absolute;
     top: 275px;
     left: 44px;
@@ -352,7 +256,7 @@
     height: 87px;
     opacity: 0.2;
 }
-.homePage3Child2 {
+.softcap {
     position: absolute;
     top: 275px;
     left: 234px;
@@ -363,7 +267,7 @@
     height: 87px;
     opacity: 0.2;
 }
-.homePage3Child3 {
+.ton600 {
     position: absolute;
     top: 720px;
     left: 35px;
@@ -402,7 +306,7 @@
     height: 15px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.vectorIcon11 {
+.hardcapIcon {
     position: absolute;
     height: 3.42%;
     width: 7.41%;
@@ -414,7 +318,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.homePage3Child4 {
+.profilerectangle {
     position: absolute;
     top: 58px;
     left: 14px;
@@ -426,7 +330,7 @@
     width: 140px;
     height: 39px;
 }
-.homePage3Child5 {
+.buynewtonrectangle {
     position: absolute;
     top: 674px;
     left: 50px;
@@ -438,7 +342,7 @@
     width: 161px;
     height: 33px;
 }
-.homePage3Child6 {
+.walletrectangle {
     position: absolute;
     top: 57px;
     left: 245px;
@@ -449,31 +353,6 @@
     box-sizing: border-box;
     width: 172px;
     height: 40px;
-}
-.vectorIcon12 {
-    position: absolute;
-    height: 4.51%;
-    width: 10.21%;
-    top: 6.18%;
-    right: 86.45%;
-    bottom: 89.31%;
-    left: 3.34%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    opacity: 0.2;
-}
-.vectorIcon13 {
-    position: absolute;
-    height: 4.51%;
-    width: 10.21%;
-    top: 6.06%;
-    right: 86.72%;
-    bottom: 89.43%;
-    left: 3.07%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
 }
 .wxyz {
     position: absolute;
@@ -493,7 +372,7 @@
     width: 154px;
     height: 14px;
 }
-.b3 {
+.b2 {
     position: absolute;
     top: 716px;
     left: 79px;
@@ -520,7 +399,7 @@
     width: 135px;
     height: 22px;
 }
-.vectorIcon14 {
+.useropenicon {
     position: absolute;
     height: 0.75%;
     width: 2.13%;
@@ -533,11 +412,11 @@
     max-height: 100%;
     object-fit: contain;
 }
-.vectorIcon15 {
+.walleticon {
     position: absolute;
-    height: 1.64%;
+    height: 2.06%;
     width: 4.91%;
-    top: 7.79%;
+    top: 7.37%;
     right: 5.72%;
     bottom: 90.57%;
     left: 89.37%;
@@ -545,43 +424,19 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon16 {
+.userlogoIcon {
     position: absolute;
-    height: 0.13%;
-    width: 0.28%;
-    top: 8.55%;
-    right: 6.81%;
-    bottom: 91.32%;
-    left: 92.91%;
+    height: 4.63%;
+    width: 10.49%;
+    top: 6.06%;
+    right: 86.44%;
+    bottom: 89.31%;
+    left: 3.07%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon17 {
-    position: absolute;
-    height: 0.68%;
-    width: 4.09%;
-    top: 7.37%;
-    right: 6.54%;
-    bottom: 91.95%;
-    left: 89.37%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon18 {
-    position: absolute;
-    height: 2.32%;
-    width: 5.02%;
-    top: 7.05%;
-    right: 89.31%;
-    bottom: 90.63%;
-    left: 5.67%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon19 {
+.telegramIcon {
     position: absolute;
     height: 2.59%;
     width: 6.54%;
@@ -593,7 +448,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon20 {
+.twitterIcon {
     position: absolute;
     height: 2.59%;
     width: 6.31%;
@@ -605,7 +460,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon21 {
+.webIcon {
     position: absolute;
     height: 2.81%;
     width: 6.07%;
@@ -617,7 +472,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon22 {
+.papersIcon {
     position: absolute;
     height: 2.43%;
     width: 5.26%;
@@ -629,7 +484,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.icon5 {
+.netonimageIcon {
     position: absolute;
     top: 114px;
     left: 25px;
@@ -637,7 +492,7 @@
     height: 98px;
     object-fit: cover;
 }
-.homePage3Child7 {
+.homePage3Child {
     position: absolute;
     top: 679px;
     left: 261px;
@@ -648,7 +503,7 @@
     width: 127px;
     height: 34px;
 }
-.homePage3Child8 {
+.homePage3Item {
     position: absolute;
     top: 722px;
     left: 261px;
@@ -659,7 +514,7 @@
     width: 127px;
     height: 32px;
 }
-.homePage3Child9 {
+.homePage3Inner {
     position: absolute;
     top: 805px;
     left: 53px;
@@ -720,7 +575,7 @@
     width: 294px;
     height: 17px;
 }
-.homePage3Child10 {
+.rectangleDiv {
     position: absolute;
     top: 277px;
     left: 229px;
@@ -730,7 +585,7 @@
     height: 87px;
     opacity: 0.2;
 }
-.homePage3Child11 {
+.homePage3Child1 {
     position: absolute;
     top: 275px;
     left: 234px;
@@ -769,7 +624,7 @@
     height: 15px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.vectorIcon23 {
+.softcapIcon {
     position: absolute;
     height: 3.42%;
     width: 7.41%;
@@ -781,7 +636,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.homePage3Child12 {
+.full {
     position: absolute;
     top: 389px;
     left: 47px;
@@ -790,7 +645,7 @@
     width: 341px;
     height: 7px;
 }
-.homePage3Child13 {
+.full80 {
     position: absolute;
     top: 389px;
     left: 47px;
@@ -812,7 +667,7 @@
 .txt {
     width: 100%;
 }
-.b4 {
+.b3 {
     position: absolute;
     top: 409px;
     left: 65px;
@@ -823,7 +678,7 @@
     width: 117px;
     height: 30px;
 }
-.b5 {
+.b4 {
     position: absolute;
     top: 408px;
     left: 333px;
@@ -834,11 +689,11 @@
     width: 117px;
     height: 30px;
 }
-.vectorIcon24 {
+.calenderIcon {
     position: absolute;
-    height: 0.68%;
+    height: 0.81%;
     width: 1.94%;
-    top: 44.76%;
+    top: 44.63%;
     right: 86.52%;
     bottom: 54.56%;
     left: 11.54%;
@@ -846,83 +701,11 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon25 {
+.calenderIcon1 {
     position: absolute;
-    height: 0.18%;
+    height: 0.81%;
     width: 1.94%;
-    top: 44.76%;
-    right: 86.52%;
-    bottom: 55.05%;
-    left: 11.54%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon26 {
-    position: absolute;
-    height: 0.14%;
-    width: 1.07%;
-    top: 44.63%;
-    right: 86.96%;
-    bottom: 55.23%;
-    left: 11.96%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon27 {
-    position: absolute;
-    height: 0.09%;
-    width: 0.42%;
-    top: 45.03%;
-    right: 87.61%;
-    bottom: 54.88%;
-    left: 11.96%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon28 {
-    position: absolute;
-    height: 0.09%;
-    width: 0.42%;
-    top: 45.21%;
-    right: 87.61%;
-    bottom: 54.7%;
-    left: 11.96%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon29 {
-    position: absolute;
-    height: 0.09%;
-    width: 0.42%;
-    top: 45.03%;
-    right: 86.97%;
-    bottom: 54.88%;
-    left: 12.61%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon30 {
-    position: absolute;
-    height: 0.09%;
-    width: 0.42%;
-    top: 45.21%;
-    right: 86.97%;
-    bottom: 54.7%;
-    left: 12.61%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon31 {
-    position: absolute;
-    height: 0.68%;
-    width: 1.94%;
-    top: 44.65%;
+    top: 44.52%;
     right: 23.91%;
     bottom: 54.67%;
     left: 74.15%;
@@ -930,79 +713,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon32 {
-    position: absolute;
-    height: 0.18%;
-    width: 1.94%;
-    top: 44.65%;
-    right: 23.91%;
-    bottom: 55.16%;
-    left: 74.15%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon33 {
-    position: absolute;
-    height: 0.14%;
-    width: 1.07%;
-    top: 44.52%;
-    right: 24.34%;
-    bottom: 55.34%;
-    left: 74.58%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon34 {
-    position: absolute;
-    height: 0.09%;
-    width: 0.42%;
-    top: 44.92%;
-    right: 25%;
-    bottom: 54.99%;
-    left: 74.58%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon35 {
-    position: absolute;
-    height: 0.09%;
-    width: 0.42%;
-    top: 45.1%;
-    right: 25%;
-    bottom: 54.81%;
-    left: 74.58%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon36 {
-    position: absolute;
-    height: 0.09%;
-    width: 0.42%;
-    top: 44.92%;
-    right: 24.36%;
-    bottom: 54.99%;
-    left: 75.22%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon37 {
-    position: absolute;
-    height: 0.09%;
-    width: 0.42%;
-    top: 45.1%;
-    right: 24.36%;
-    bottom: 54.81%;
-    left: 75.22%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.vectorIcon38 {
+.clockIcon {
     position: absolute;
     height: 0.9%;
     width: 1.94%;
@@ -1014,7 +725,7 @@
     overflow: hidden;
     max-height: 100%;
 }
-.vectorIcon39 {
+.clockIcon1 {
     position: absolute;
     height: 0.9%;
     width: 1.94%;
@@ -1038,7 +749,7 @@
     width: 129px;
     height: 10px;
 }
-.vectorIcon40 {
+.timerIcon {
     position: absolute;
     height: 0.98%;
     width: 2.15%;
