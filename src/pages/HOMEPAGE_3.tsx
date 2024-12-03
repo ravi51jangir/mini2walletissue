@@ -1,7 +1,7 @@
 import { FunctionComponent, useCallback } from 'react';
 import styles from '../css_modules/HOMEPAGE_3.module.css';
 import {images} from '../StoreImages/StoreImages';
-
+import { ConnectWallet } from "../walletIntegration";
 
 
 
@@ -34,7 +34,7 @@ const HOMEPAGE:FunctionComponent = () => {
       			<img className={styles.bitmartLogoIcon} alt="" src={images.BitMart_Logo} />
       			<b className={styles.b}>.........................................................................</b>
       			<b className={styles.b1}>.........................................................................</b>
-      			<img className={styles.dropdownIcon} alt="" src={images.DropDown}/>
+      			
       			<div className={styles.buynewtonrec} />
       			<img className={styles.icoButtonIcon} alt="" src={images.ICOButton} onClick={onHomeButtonIconClick} />
       			<img className={styles.nftButtonIcon} alt="" src={images.NFTButton} onClick={onHomeButtonIconClick} />
@@ -46,14 +46,17 @@ const HOMEPAGE:FunctionComponent = () => {
       			<img className={styles.hardcapIcon} alt="" src={images.HardCap} />
       			<div className={styles.profilerectangle} />
       			<div className={styles.buynewtonrectangle} />
-      			<div className={styles.walletrectangle} />
+				  <div className={styles.walletButton}>
+        <ConnectWallet />
+      </div>
+      		
       			<b className={styles.wxyz}>WXYZ</b>
       			<b className={styles.buyNeuton}>BUY NEUTON</b>
       			<b className={styles.b2}>600</b>
       			<div className={styles.ton}>TON</div>
-      			<b className={styles.connectWallet}>CONNECT WALLET</b>
+      		
       			<img className={styles.useropenicon} alt="" src={images.UserOpenIcon} />
-      			<img className={styles.walleticon} alt="" src={images.WalletIcon}/>
+      			
       			<img className={styles.userlogoIcon} alt="" src={images.UserLogo} />
       			<img className={styles.telegramIcon} alt="" src={images.Telegram} />
       			<img className={styles.twitterIcon} alt="" src={images.Twitter} />

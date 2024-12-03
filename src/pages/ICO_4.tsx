@@ -1,7 +1,7 @@
 import { FunctionComponent, useCallback } from 'react';
 import styles from '../css_modules/ICO_4.module.css';
 import {images} from '../StoreImages/StoreImages';
-
+import { ConnectWallet } from "../walletIntegration";
 
 
 
@@ -18,12 +18,14 @@ const ICO_4:FunctionComponent = () => {
       			<div className={styles.goalrectangle1} />
       			<div className={styles.goalrectangle2} />
       			<div className={styles.goalrectangle3} />
-      			<div className={styles.walletrectangle} />
-      			<img className={styles.userlogoIcon} alt="" src="UserLogo.svg" />
+      		
+      			<img className={styles.userlogoIcon} alt="" src={images.UserLogo} />
       			<b className={styles.wxyz}>WXYZ</b>
-      			<b className={styles.connectWallet}>CONNECT WALLET</b>
-      			<img className={styles.useropenicon} alt="" src="UserOpenIcon.svg" />
-      			<img className={styles.walleticon} alt="" src="WalletIcon.svg" />
+      		
+      			<img className={styles.useropenicon} alt="" src={images.UserOpenIcon}/>
+				  <div className={styles.walletButton}>
+        <ConnectWallet />
+      </div>
       			<div className={styles.goalNotSet}>GOAL: NOT SET</div>
       			<div className={styles.goal50000}>GOAL: $50,000</div>
       			<div className={styles.goal20000}>GOAL: $20,000</div>
@@ -60,12 +62,12 @@ const ICO_4:FunctionComponent = () => {
       			<b className={styles.b1}>.........................................................................</b>
       			<b className={styles.b2}>.........................................................................</b>
       			<img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground}  />
-      			<img className={styles.homeButtonIcon} alt="" src="Home Button.svg" onClick={onHomeButtonIconClick} />
-      			<img className={styles.notificationButtonIcon} alt="" src="Notification Button.svg" />
-      			<img className={styles.stackButtonIcon} alt="" src="Stack Button.svg" />
-      			<img className={styles.cursorbuttonsIcon} alt="" src="CursorButtons.svg" />
-      			<img className={styles.icoButtonIcon} alt="" src="ICO Button.png" />
-      			<img className={styles.nftButtonIcon} alt="" src="NFT Button.png" onClick={onHomeButtonIconClick} />
+      			<img className={styles.homeButtonIcon} alt="" src={images.HomeButton} onClick={onHomeButtonIconClick} />
+      			<img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton} />
+      			<img className={styles.stackButtonIcon} alt="" src={images.StackButton} />
+      			<img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons} />
+      			<img className={styles.icoButtonIcon} alt="" src={images.ICOButton} />
+      			<img className={styles.nftButtonIcon} alt="" src={images.NFTButton} onClick={onHomeButtonIconClick} />
       			<div className={styles.bovinversedark} />
       			<div className={styles.chirplaydark} />
       			<div className={styles.metaclouddark} />
@@ -74,19 +76,19 @@ const ICO_4:FunctionComponent = () => {
       			<div className={styles.chirplay1} />
       			<div className={styles.metacloud1} />
       			<div className={styles.inshape1} />
-      			<img className={styles.metacloudimageIcon} alt="" src="MetaCloudImage.png" />
-      			<img className={styles.inshapeimageIcon} alt="" src="inShapeImage.png" />
-      			<img className={styles.dropdownico4Icon} alt="" src="DropDownIco_4.svg" />
+      			<img className={styles.metacloudimageIcon} alt="" src={images.MetaCloudImage} />
+      			<img className={styles.inshapeimageIcon} alt="" src={images.inShapeImage} />
+      			{/* <img className={styles.dropdownico4Icon} alt="" src="DropDownIco_4.svg" /> */}
       			<img className={styles.auerectangle} alt="" src={images.AUERectangle}  />
       			<div className={styles.upcomingrectangle} />
       			<b className={styles.active}>{`ACTIVE `}</b>
       			<b className={styles.upcoming}>UPCOMING</b>
       			<b className={styles.ended} onClick={onHomeButtonIconClick}>ENDED</b>
-      			<img className={styles.upcomingicon} alt="" src="UpcomingIcon.svg" />
+      			<img className={styles.upcomingicon} alt="" src={images.UpcomingIcon} />
       			<div className={styles.auerectangleborder} />
       			<div className={styles.auerectanglestatus} />
-      			<img className={styles.bovinverseimageIcon} alt="" src="BovinVerseImage.png" />
-      			<img className={styles.chirplayimageIcon} alt="" src="ChirplayImage.png" />
+      			<img className={styles.bovinverseimageIcon} alt="" src={images.BovinVerseImage} />
+      			<img className={styles.chirplayimageIcon} alt="" src={images.ChirplayImage} />
     		</div>);
 };
 

@@ -1,6 +1,7 @@
 import { FunctionComponent, useCallback } from 'react';
 import styles from '../css_modules/HOMEPAGE.module.css';
 import { images } from '../StoreImages/StoreImages';
+import { ConnectWallet } from "../walletIntegration";
 
 
 
@@ -15,12 +16,14 @@ const HOMEPAGE:FunctionComponent = () => {
     		<div className={styles.homePage1}>
       			<img className={styles.altcoinbgIcon} alt="" src={images.AltcoinBg} />
       			<div className={styles.profilerectangle} />
-      			<div className={styles.walletrectangle} />
+      			
       			<img className={styles.userlogoIcon} alt="" src={images.UserLogo} />
       			<b className={styles.wxyz}>WXYZ</b>
-      			<b className={styles.connectWallet}>CONNECT WALLET</b>
+      			
       			<img className={styles.useropenicon} alt="" src={images.UserOpenIcon} />
-      			<img className={styles.walleticon} alt="" src={images.WalletIcon} />
+				  <div className={styles.walletButton}>
+        <ConnectWallet />
+      </div>
       			<div className={styles.altcoinrec} />
       			<div className={styles.tokenpricerec} />
       			<img className={styles.days12leftIcon} alt="" src={images.Days12Left} />

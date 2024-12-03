@@ -18,6 +18,24 @@
     width: 140px;
     height: 39px;
 }
+
+.walletButton {
+    position: absolute; /* Ensures it floats over other elements */
+    top: 58px;
+    Right: 14px;
+  }
+  
+  .walletButton button {
+    background-color: #20232a; /* Matches dark UI */
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
 .walletrectangle {
     position: absolute;
     top: 57px;
@@ -154,13 +172,13 @@
     height: 10px;
 }
 .buttonsBackground {
-    position: absolute;
-    top: 855px;
+  position: absolute;
+  top: 855px;
+
+
+ 
   
-  
-   
-    
-  }
+}
 .homeButtonIcon {
     position: absolute;
     height: 3.89%;

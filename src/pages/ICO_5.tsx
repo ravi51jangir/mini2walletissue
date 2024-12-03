@@ -1,7 +1,7 @@
 import { FunctionComponent, useCallback } from 'react';
 import styles from '../css_modules/ICO_5.module.css';
 import {images} from '../StoreImages/StoreImages';
-
+import { ConnectWallet } from "../walletIntegration";
 
 
 const ICO_5:FunctionComponent = () => {
@@ -17,12 +17,14 @@ const ICO_5:FunctionComponent = () => {
       			<div className={styles.arrakispricerectangle} />
       			<div className={styles.metacloudpricerectangle} />
       			<div className={styles.inshapepricerectangle1} />
-      			<div className={styles.walletrectangle} />
+      			
       			<img className={styles.userlogoIcon} alt="" src={images.UserLogo} />
       			<b className={styles.wxyz}>WXYZ</b>
-      			<b className={styles.connectWallet}>CONNECT WALLET</b>
+      			
       			<img className={styles.useropenicon} alt="" src={images.UserOpenIcon}/>
-      			<img className={styles.walleticon} alt="" src={images.WalletIcon} />
+				  <div className={styles.walletButton}>
+        <ConnectWallet />
+      </div>
 
 				<img className={styles.auerectangle} alt="" src={images.AUERectangle}  />
 

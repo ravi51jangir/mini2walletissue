@@ -1,7 +1,7 @@
 import { FunctionComponent, useCallback } from 'react';
 import styles from '../css_modules/HOMEPAGE_2.module.css';
 import {images} from '../StoreImages/StoreImages';
-
+import { ConnectWallet } from "../walletIntegration";
 
 
 const HOMEPAGE_2:FunctionComponent = () => {
@@ -14,12 +14,15 @@ const HOMEPAGE_2:FunctionComponent = () => {
     		<div className={styles.homePage2}>
       			<img className={styles.gpt360bgIcon} alt="" src={images.Gpt360Bg} />
       			<div className={styles.profilerectangle} />
-      			<div className={styles.walletrectangle} />
+      	
       			<img className={styles.userlogoIcon} alt="" src={images.UserLogo}/>
       			<b className={styles.wxyz}>WXYZ</b>
-      			<b className={styles.connectWallet}>CONNECT WALLET</b>
+				  <div className={styles.walletButton}>
+        <ConnectWallet />
+      </div>
+      		
       			<img className={styles.useropenicon} alt="" src={images.UserOpenIcon} />
-      			<img className={styles.walleticon} alt="" src={images.WalletIcon}/>
+
       			<div className={styles.gpt360rec} />
       			<div className={styles.tokenpricerec} />
       			<img className={styles.days12leftIcon} alt="" src={images.Days12Left} />
