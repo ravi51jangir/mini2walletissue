@@ -1,11 +1,14 @@
 .altcoinbgIcon {
     position: absolute;
     top: 46px;
-    left: 0px;
-    width: 538px;
-    height: 225px;
-    object-fit: cover;
+
 }
+@media screen and (max-width: 768px) {
+    .altcoinbgIcon  {
+      float: none;
+      width: 100%;
+    }
+  }
 .profilerectangle {
     position: absolute;
     top: 58px;
@@ -16,7 +19,7 @@
     border: 1px solid rgba(255, 255, 255, 0);
     box-sizing: border-box;
     width: 140px;
-    height: 39px;
+    height: 32px;
 }
 
 .walletButton {
@@ -50,20 +53,20 @@
 }
 .userlogoIcon {
     position: absolute;
-    height: 4.63%;
-    width: 10.47%;
-    top: 6.06%;
+    height: 35px;
+    top: 6.5%;
     right: 86.46%;
     bottom: 89.31%;
     left: 3.07%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
+
 }
+
+
+
 .wxyz {
     position: absolute;
     top: 68px;
-    left: 76px;
+    left: 70px;
     font-size: 14px;
     display: inline-block;
     width: 51px;
@@ -80,17 +83,12 @@
 }
 .useropenicon {
     position: absolute;
-    height: 0.75%;
-    width: 2.13%;
-    top: 8.02%;
-    right: 68.09%;
-    bottom: 91.23%;
-    left: 29.78%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: contain;
+    top: 7.8%;
+    bottom: 89.31%;
+    left: 130px;
+
 }
+
 .walleticon {
     position: absolute;
     height: 2.06%;
@@ -107,42 +105,71 @@
     position: absolute;
     top: 193px;
     left: 41px;
+    right: 41px;
     border-radius: 15px;
     background-color: #434242;
     border: 1px solid #fff8f8;
     box-sizing: border-box;
-    width: 347px;
     height: 116px;
 }
+
+@media screen and (max-width: 300px) {
+    .altcoinrec  {
+      float: none;
+      width: 100%;
+      right: 41px;
+    }
+  }
 .tokenpricerec {
     position: absolute;
     top: 265px;
     left: 52px;
+    right: 52px;
     box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     background-color: #fff;
-    width: 325px;
+   
     height: 109px;
 }
+
+@media screen and (max-width: 300px) {
+    .tokenpricerec  {
+      float: none;
+      width: 100%;
+      right: 52px;
+    }}
+
 .days12leftIcon {
     position: absolute;
     top: 142px;
-    left: 240px;
-    width: 233px;
+    height: 80px;
+    right: 0px;
     height: 229px;
     object-fit: cover;
 }
+@media screen and (max-width: 300px) {
+    .altcoinist  {
+      float: none;
+      width: 100%;
+     
+    }}
 .altcoinist {
     position: absolute;
     top: 210px;
-    left: 122px;
-    font-size: 32px;
+    right: 100px;
+    font-size: 30px;
     display: inline-block;
     font-family: Rambla;
     width: 223px;
     height: 35px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+@media screen and (max-width: 300px) {
+    .altcoinist  {
+      float: none;
+      width: 100%;
+     
+    }}
 .homePage1Child {
     position: absolute;
     top: 394px;
@@ -173,12 +200,17 @@
 }
 .buttonsBackground {
   position: absolute;
-  top: 855px;
+  top: 845px;
+  left:1px;
 
-
- 
-  
 }
+@media screen and (max-width: 700px) {
+    .buttonsBackground  {
+      float: none;
+      width: 100%;
+      
+    }
+  }
 .homeButtonIcon {
     position: absolute;
     height: 3.89%;
@@ -218,10 +250,18 @@
 .apply {
     position: absolute;
     top: 749px;
-    left: 109px;
+    text-align: center;
+    right: 109px;
     font-family: 'Times New Roman';
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+@media screen and (max-width: 70px) {
+    .apply  {
+      float: none;
+      width: 100%;
+      
+    }
+  }
 .apply1 {
     position: absolute;
     top: 654px;
@@ -236,17 +276,18 @@
 .altcoinimgIcon {
     position: absolute;
     top: 208px;
-    left: 63px;
+    left: 45px;
     border-radius: 50%;
     width: 43px;
     height: 43px;
     object-fit: cover;
 }
+
 .activeborderimageIcon {
     position: absolute;
     top: 137px;
-    left: -92px;
-    width: 336px;
+    left: 10px;
+    width: 230px;
     height: 42px;
     object-fit: cover;
 }
@@ -268,6 +309,7 @@
     height: 37px;
     object-fit: cover;
 }
+
 .icoButtonIcon {
     position: absolute;
     top: 845px;
@@ -496,7 +538,8 @@
 .stakeimagerec {
     position: absolute;
     top: 457px;
-    left: 230px;
+ 
+    right: 41px;
     box-shadow: 0px 2px 3px 5px #0048ff;
     border-radius: 10px;
     background-color: #000;
@@ -506,6 +549,17 @@
     height: 119px;
     opacity: 0.2;
 }
+@media screen and (max-width: 70px) {
+    .stakeimagerec  {
+      float: none;
+      width: 100%;
+      
+    }
+  }
+
+
+
+
 .nftimageIcon {
     position: absolute;
     top: 468px;
@@ -518,12 +572,19 @@
 .stakeimageIcon {
     position: absolute;
     top: 468px;
-    left: 273px;
+    right: 84px;
     border-radius: 50%;
     width: 71px;
     height: 71px;
     object-fit: cover;
 }
+@media screen and (max-width: 70px) {
+    .stakeimageIcon  {
+      float: none;
+      width: 100%;
+      
+    }
+  }
 .nfttextrec {
     position: absolute;
     top: 559px;
@@ -538,7 +599,7 @@
 .rectangleDiv {
     position: absolute;
     top: 559px;
-    left: 241px;
+    right: 50px;
     background-color: #000;
     border: 1px solid #fff;
     box-sizing: border-box;
@@ -546,6 +607,13 @@
     height: 41px;
     cursor: pointer;
 }
+@media screen and (max-width: 70px) {
+    .rectangleDiv  {
+      float: none;
+      width: 100%;
+      
+    }
+  }
 .nft {
     position: absolute;
     top: 565px;
@@ -561,7 +629,7 @@
 .stake {
     position: absolute;
     top: 565px;
-    left: 274px;
+    right: 48px;
     font-size: 24px;
     letter-spacing: 0.09em;
     display: inline-block;
@@ -570,6 +638,13 @@
     height: 35px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+@media screen and (max-width: 70px) {
+    .stake  {
+      float: none;
+      width: 100%;
+      
+    }
+  }
 .homePage1 {
     width: 100%;
     position: relative;

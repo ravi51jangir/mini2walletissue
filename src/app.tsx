@@ -6,7 +6,7 @@ import Stackpage from "./pages/Stack";
 import Notificationpage from "./pages/NOTIFICATION";
 import ICO_3page from "./pages/ICO_3";
 import { images } from "./StoreImages/StoreImages";
-
+import styles from "./css_modules/HOMEPAGE.module.css";
 export const routes = {
   home: "/",
   nft: "/nft",
@@ -25,31 +25,31 @@ const NavigationHandler: React.FC = () => {
 
   return (
     <footer style={{ display: "flex", justifyContent: "space-around", padding: "10px", background: "#f0f0f0" }}>
-      <img
+       <img className={styles.homeButtonIcon}
         src={images.HomeButton}
         alt="Home"
         onClick={() => handleNavigation(routes.home)}
         style={{ cursor: "pointer" }}
       />
-      <img
+       <img className={styles.icoButtonIcon}
         src={images.ICOButton}
         alt="ICO"
         onClick={() => handleNavigation(routes.ico)}
         style={{ cursor: "pointer" }}
       />
-      <img
+       <img className={styles.nftButtonIcon}
         src={images.NFTButton}
         alt="NFT"
         onClick={() => handleNavigation(routes.nft)}
         style={{ cursor: "pointer" }}
       />
-      <img
+     <img className={styles.stackButtonIcon}
         src={images.StackButton}
         alt="Stack"
         onClick={() => handleNavigation(routes.stack)}
         style={{ cursor: "pointer" }}
       />
-      <img
+      <img className={styles.notificationButtonIcon}
         src={images.NotificationButton}
         alt="Notifications"
         onClick={() => handleNavigation(routes.notification)}
