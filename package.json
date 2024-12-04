@@ -2,7 +2,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module", 
-  "homepage": "https://DimitriMavrick.github.io/dMiniApp",
+  "homepage": "https://ravi51jangir.github.io/deploy_miniapp",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "dev": "vite",
