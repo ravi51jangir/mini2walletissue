@@ -24,7 +24,7 @@ const NavigationHandler: React.FC = () => {
   };
 
   return (
-    <footer style={{ display: "flex", justifyContent: "space-around", padding: "10px", background: "#f0f0f0" }}>
+    <footer >
        <img className={styles.homeButtonIcon}
         src={images.HomeButton}
         alt="Home"
@@ -49,7 +49,7 @@ const NavigationHandler: React.FC = () => {
         onClick={() => handleNavigation(routes.stack)}
         style={{ cursor: "pointer" }}
       />
-      <img
+       <img className={styles.notificationButtonIcon}
         src={images.NotificationButton}
         alt="Notifications"
         onClick={() => handleNavigation(routes.notification)}
