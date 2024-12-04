@@ -71,12 +71,7 @@ const ICO:FunctionComponent = () => {
       			<b className={styles.b2}>.........................................................................</b>
       			<img className={styles.inshapeimageIcon} alt="" src={images.inShapeImage} />
       			<img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground}  />
-      			<img className={styles.homeButtonIcon} alt="" src={images.HomeButton} onClick={onUPCOMINGTextClick} />
-      			<img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton} />
-      			<img className={styles.stackButtonIcon} alt="" src={images.StackButton} />
-      			<img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons} />
-      			<img className={styles.icoButtonIcon} alt="" src={images.ICOButton} />
-      			<img className={styles.nftButtonIcon} alt="" src={images.NFTButton} onClick={onUPCOMINGTextClick} />
+      			
       			<div className={styles.inshapedark} />
       			<div className={styles.arrakisdark} />
       			<div className={styles.metaclouddark} />

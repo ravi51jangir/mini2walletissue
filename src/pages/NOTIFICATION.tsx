@@ -1,4 +1,4 @@
-import { FunctionComponent, useCallback } from 'react';
+import { FunctionComponent } from 'react';
 import styles from '../css_modules/NOTIFICATION.module.css';
 import {images} from '../StoreImages/StoreImages';
 import { ConnectWallet } from "../walletIntegration";
@@ -7,9 +7,7 @@ import { ConnectWallet } from "../walletIntegration";
 
 const NOTIFICATION:FunctionComponent = () => {
   	
-  	const onHomeButtonIconClick = useCallback(() => {
-    		// Add your code here
-  	}, []);
+
 
 
   
@@ -107,11 +105,7 @@ const NOTIFICATION:FunctionComponent = () => {
       			<img className={styles.downnotificationIcon} alt="" src={images.DownNotification}  />
 				<img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground}  />
       	
-      			<img className={styles.homeButtonIcon} alt="" src={images.HomeButton}  onClick={onHomeButtonIconClick} />
-      			<img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton} />
-      			<img className={styles.stackButtonIcon} alt="" src={images.StackButton}  />
-      			<img className={styles.icoButtonIcon} alt="" src={images.ICOButton}  onClick={onHomeButtonIconClick} />
-      			<img className={styles.nftButtonIcon} alt="" src={images.NFTButton}  onClick={onHomeButtonIconClick} />
+      			
       			<img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons}  />
     		</div>);
 };

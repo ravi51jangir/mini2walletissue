@@ -1,55 +1,81 @@
-import { FC } from "react";
-import useGetUser from "./api/hooks/useGetUser";
-import axios from "axios"
-import Onboarding from "./pages/onboarding";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 import Homepage from "./pages/HOMEPAGE";
-import Homepage_3 from "./pages/HOMEPAGE_3";
-import Homepage_2 from "./pages/HOMEPAGE_2";
 import Nftpage from "./pages/NFT";
 import Stackpage from "./pages/Stack";
 import Notificationpage from "./pages/NOTIFICATION";
 import ICO_3page from "./pages/ICO_3";
-import ICO_4page from "./pages/ICO_4";
-import ICO_5page from "./pages/ICO_5";
-import { Outlet } from "react-router-dom";
+import { images } from "./StoreImages/StoreImages";
 
-export const App: FC = () => {
+export const routes = {
+  home: "/",
+  nft: "/nft",
+  stack: "/stack",
+  notification: "/notification",
+  ico: "/ico",
+};
 
-    
+// Navigation handler logic for footer buttons
+const NavigationHandler: React.FC = () => {
+  const navigate = useNavigate();
 
-
-    const {user, isLoading, isError, error} = useGetUser()
-  
-    if (isLoading) {
-      return (
-        <div>Loading</div>
-      )
-    }
-  
-    if (isError) {
-      if (axios.isAxiosError(error) && error.response) {
-        const statusCode = error.response.status;
-  
-        if (statusCode === 404) {
-          return <Onboarding/>
-        }
-      }
-    }
-    
-    return (
-      <div>
-        <div>
-          <Outlet context={user}/>
-          <Homepage/>
-          <Homepage_3/>
-          <Nftpage/>
-          <Stackpage/>
-          <Notificationpage/>
-          <ICO_3page/>
-          <ICO_4page/>
-          <ICO_5page/>
-          <Homepage_2/>
-        </div>
-      </div>
-    );
+  const handleNavigation = (path: string) => {
+    navigate(path); // Navigate to the specified path
   };
+
+  return (
+    <footer style={{ display: "flex", justifyContent: "space-around", padding: "10px", background: "#f0f0f0" }}>
+      <img
+        src={images.HomeButton}
+        alt="Home"
+        onClick={() => handleNavigation(routes.home)}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        src={images.ICOButton}
+        alt="ICO"
+        onClick={() => handleNavigation(routes.ico)}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        src={images.NFTButton}
+        alt="NFT"
+        onClick={() => handleNavigation(routes.nft)}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        src={images.StackButton}
+        alt="Stack"
+        onClick={() => handleNavigation(routes.stack)}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        src={images.NotificationButton}
+        alt="Notifications"
+        onClick={() => handleNavigation(routes.notification)}
+        style={{ cursor: "pointer" }}
+      />
+
+    </footer>
+  );
+};
+
+const App: React.FC = () => {
+  return (
+    <Router>
+      {/* Routes for pages */}
+      <Routes>
+        <Route path={routes.home} element={<Homepage />} />
+        <Route path={routes.nft} element={<Nftpage />} />
+        <Route path={routes.stack} element={<Stackpage />} />
+        <Route path={routes.notification} element={<Notificationpage />} />
+        <Route path={routes.ico} element={<ICO_3page />} />
+      </Routes>
+
+      {/* Footer with navigation logic */}
+      <NavigationHandler />
+    </Router>
+  );
+};
+
+export default App;

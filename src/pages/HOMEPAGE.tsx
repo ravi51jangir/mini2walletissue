@@ -1,4 +1,4 @@
-import { FunctionComponent, useCallback } from 'react';
+
 import styles from '../css_modules/HOMEPAGE.module.css';
 import { images } from '../StoreImages/StoreImages';
 import { ConnectWallet } from "../walletIntegration";
@@ -6,11 +6,8 @@ import { ConnectWallet } from "../walletIntegration";
 
 
 
-const HOMEPAGE:FunctionComponent = () => {
-  	
-  	const onEllipseClick = useCallback(() => {
-    		// Add your code here
-  	}, []);
+const HOMEPAGE:React.FC = () => {
+
   	
   	return (
     		<div className={styles.homePage1}>
@@ -29,21 +26,18 @@ const HOMEPAGE:FunctionComponent = () => {
       			<img className={styles.days12leftIcon} alt="" src={images.Days12Left} />
       			<b className={styles.altcoinist}>ALTCOINIST</b>
       			<div className={styles.homePage1Child} />
-      			<div className={styles.homePage1Item} onClick={onEllipseClick} />
+      			<div className={styles.homePage1Item} />
       			<div className={styles.homePage1Inner} />
       			<img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground}  />
-      			<img className={styles.homeButtonIcon} alt="" src={images.HomeButton} />
-      			<img className={styles.stackButtonIcon} alt="" src={images.StackButton} />
+
+				 
       			<img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons} />
       			<b className={styles.apply}>Apply To Organize ICO</b>
       			<div className={styles.apply1}>Apply to organize an ICO by ensuring compliance with legal and regulatory requirements.</div>
       			<img className={styles.altcoinimgIcon} alt="" src={images.AltcoinImg} />
       			<img className={styles.activeborderimageIcon} alt="" src={images.ActiveBorderImage} />
       			<b className={styles.active}>ACTIVE</b>
-      			<img className={styles.applynowIcon} alt="" src={images.ApplyNow} />
-      			<img className={styles.icoButtonIcon} alt="" src={images.ICOButton} onClick={onEllipseClick} />
-      			<img className={styles.nftButtonIcon} alt="" src={images.NFTButton} onClick={onEllipseClick} />
-      			<img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton} />
+      			
       			<b className={styles.tokenPrice}>TOKEN PRICE</b>
       			<b className={styles.b}>
         				<span className={styles.txt}>
@@ -72,8 +66,8 @@ const HOMEPAGE:FunctionComponent = () => {
       			<div className={styles.stakeimagerec} />
       			<img className={styles.nftimageIcon} alt="" src={images.NftImage} />
       			<img className={styles.stakeimageIcon} alt="" src={images.StakeImage} />
-      			<div className={styles.nfttextrec} onClick={onEllipseClick} />
-      			<div className={styles.rectangleDiv} onClick={onEllipseClick} />
+      			<div className={styles.nfttextrec}  />
+      			<div className={styles.rectangleDiv}/>
       			<b className={styles.nft}>NFT</b>
       			<b className={styles.stake}>STAKE</b>
     		</div>);
