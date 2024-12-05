@@ -2,18 +2,23 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createWeb3Modal } from "@web3modal/wagmi/react";
 import { http, createConfig, WagmiProvider } from "wagmi";
-import { mainnet, arbitrum, bsc } from "viem/chains";
-import { walletConnect, injected } from "wagmi/connectors";
+import { mainnet, arbitrum } from "viem/chains";
+import { walletConnect, coinbaseWallet, injected } from "wagmi/connectors";
+import type { CreateConnectorFn } from "@wagmi/core";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { authConnector } from "@web3modal/wagmi";
+import { ErrorBoundary } from "./ErrorBoundary";
+import { ErrorPage } from "./ErrorPage";
+import { TelegramProvider } from "./TelegramProvider";
 
-// Setup queryClient
+// Query Client for react-query
 const queryClient = new QueryClient();
 
-// Get projectId
+// 1. Get projectId at https://cloud.walletconnect.com
 const projectId = import.meta.env.VITE_PROJECT_ID;
 if (!projectId) throw new Error("Project ID is undefined");
 
-// Metadata configuration
+// Define metadata
 const metadata = {
   name: "Web3Modal",
   description: "Web3Modal Example",
@@ -22,93 +27,59 @@ const metadata = {
 };
 
 // Define chains
-const chains = [mainnet, arbitrum, bsc] as const;
+const chains = [mainnet, arbitrum] as const;
 
-// Configure WalletConnect
-const walletConnectConnector = walletConnect({
-  projectId,
-  metadata,
-  showQrModal: false,
-});
+// Create connectors
+const connectors: CreateConnectorFn[] = [];
+connectors.push(walletConnect({ projectId, metadata, showQrModal: false }));
+connectors.push(injected({ shimDisconnect: true }));
+connectors.push(
+  coinbaseWallet({
+    appName: metadata.name,
+    appLogoUrl: metadata.icons[0],
+  })
+);
+connectors.push(
+  authConnector({
+    options: { projectId },
+    socials: ["google", "x", "github", "discord", "apple"],
+    showWallets: true,
+    email: true,
+    walletFeatures: false,
+  })
+);
 
-// Configure injected connector with strict settings
-const injectedConnector = injected({
-  shimDisconnect: true,
-  target: 'metaMask'  // Explicitly target MetaMask
-});
-
-// Create wagmi config
+// Wagmi configuration
 const wagmiConfig = createConfig({
   chains,
   transports: {
     [mainnet.id]: http(),
     [arbitrum.id]: http(),
-    [bsc.id]: http(),
   },
-  connectors: [
-    walletConnectConnector,
-    injectedConnector
-  ],
+  connectors: connectors,
 });
 
-// Configure Web3Modal
-createWeb3Modal({
-  wagmiConfig,
-  projectId,
-  themeMode: 'light',
-  defaultChain: mainnet,
-  featuredWalletIds: [
-    "4622a2b2d6af1c9844944291e5e7351a6aa24cd7b23099efac1b2fd875da31a0", // Trust Wallet
-    "c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96", // MetaMask
-  ],
-  mobileWallets: [
-    {
-      id: "trust",
-      name: "Trust Wallet",
-      links: {
-        native: "trust://",
-        universal: "https://link.trustwallet.com"
-      }
-    }
-  ],
-  desktopWallets: [
-    {
-      id: "trust",
-      name: "Trust Wallet",
-      links: {
-        native: "trust://",
-        universal: "https://link.trustwallet.com"
-      }
-    }
-  ],
-  explorerRecommendedWalletIds: [
-    "4622a2b2d6af1c9844944291e5e7351a6aa24cd7b23099efac1b2fd875da31a0", // Trust Wallet first
-    "c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96"  // MetaMask second
-  ],
-  explorerExcludedWalletIds: undefined, // Don't exclude any wallets
-  tokenContracts: {
-    [mainnet.id]: {
-      address: "YOUR_TOKEN_ADDRESS" // Replace with your token address
-    }
-  }
-});
+// Create Web3Modal
+createWeb3Modal({ wagmiConfig, projectId });
 
-// ConnectWallet component
-export const ConnectWallet: React.FC = () => {
-  return (
-    <div className="centered-div">
-      <w3m-button />
-    </div>
-  );
-};
+// ConnectWallet Component
+export const ConnectWallet: React.FC = () => (
+  <div className="centered-div">
+    <w3m-button />
+  </div>
+);
 
-// Main application
+// Main Application
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <WagmiProvider config={wagmiConfig}>
-      <QueryClientProvider client={queryClient}>
-        <ConnectWallet />
-      </QueryClientProvider>
-    </WagmiProvider>
+    <ErrorBoundary fallback={ErrorPage}>
+      <TelegramProvider>
+        <WagmiProvider config={wagmiConfig}>
+          <QueryClientProvider client={queryClient}>
+            <ConnectWallet />
+          </QueryClientProvider>
+        </WagmiProvider>
+      </TelegramProvider>
+    </ErrorBoundary>
   </React.StrictMode>
 );
