@@ -9,7 +9,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { authConnector } from "@web3modal/wagmi";
 import { ErrorBoundary } from "./ErrorBoundary";
 import { ErrorPage } from "./ErrorPage";
-import { TelegramProvider } from "./TelegramProvider";
+import { TelegramProvider } from 'react-telegram-miniapp';
+
 
 // Query Client for react-query
 const queryClient = new QueryClient();
