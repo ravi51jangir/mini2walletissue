@@ -1,14 +1,19 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 import Homepage from "./pages/HOMEPAGE";
+import Homepage2 from "./pages/HOMEPAGE_2";
+import Homepage3 from "./pages/HOMEPAGE_3";
 import Nftpage from "./pages/NFT";
 import Stackpage from "./pages/Stack";
 import Notificationpage from "./pages/NOTIFICATION";
 import ICO_3page from "./pages/ICO_3";
 import { images } from "./StoreImages/StoreImages";
 import styles from "./css_modules/HOMEPAGE.module.css";
+
 export const routes = {
   home: "/",
+  home2: "/home2",  // Add this
+  home3: "/home3",  // Add this
   nft: "/nft",
   stack: "/stack",
   notification: "/notification",
@@ -65,7 +70,9 @@ const App: React.FC = () => {
     <Router>
       {/* Routes for pages */}
       <Routes>
-        <Route path={routes.home} element={<Homepage />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="/home2" element={<Homepage2 />} />  {/* Add this */}
+        <Route path="/home3" element={<Homepage3 />} />  {/* Add this */}
         <Route path={routes.nft} element={<Nftpage />} />
         <Route path={routes.stack} element={<Stackpage />} />
         <Route path={routes.notification} element={<Notificationpage />} />

@@ -2,10 +2,11 @@ import { FunctionComponent, useCallback } from 'react';
 import styles from '../css_modules/HOMEPAGE_2.module.css';
 import {images} from '../StoreImages/StoreImages';
 import { ConnectWallet } from "../walletIntegration";
-
+import { useNavigate } from 'react-router-dom'; 
+ 
 
 const HOMEPAGE_2:FunctionComponent = () => {
-  	
+	const navigate = useNavigate(); // Add this hook
   	const onEllipseClick = useCallback(() => {
     		// Add your code here
   	}, []);
@@ -27,9 +28,25 @@ const HOMEPAGE_2:FunctionComponent = () => {
       			<div className={styles.tokenpricerec} />
       			<img className={styles.days12leftIcon} alt="" src={images.Days12Left} />
       			<b className={styles.gpt360}>GPT360</b>
-      			<div className={styles.homePage2Child} />
+
+				  <div 
+					className={styles.homePage2Item} 
+					onClick={() => navigate('/')}
+					style={{ cursor: 'pointer' }}
+				/>
+				<div 
+					className={styles.homePage2Child} 
+					onClick={() => navigate('/home2')}
+					style={{ cursor: 'pointer' }}
+				/>
+				<div 
+					className={styles.homePage2Inner} 
+					onClick={() => navigate('/home3')}
+					style={{ cursor: 'pointer' }}
+				/>
+      			{/* <div className={styles.homePage2Child} />
       			<div className={styles.homePage2Item} onClick={onEllipseClick} />
-      			<div className={styles.homePage2Inner} onClick={onEllipseClick} />
+      			<div className={styles.homePage2Inner} onClick={onEllipseClick} /> */}
       			<img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground}  />
       			<img className={styles.homeButtonIcon} alt="" src={images.HomeButton} />
       			<img className={styles.stackButtonIcon} alt="" src={images.StackButton} />

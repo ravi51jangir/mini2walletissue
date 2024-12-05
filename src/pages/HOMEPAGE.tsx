@@ -2,12 +2,12 @@
 import styles from '../css_modules/HOMEPAGE.module.css';
 import { images } from '../StoreImages/StoreImages';
 import { ConnectWallet } from "../walletIntegration";
-
+import { useNavigate } from 'react-router-dom'; 
 
 
 
 const HOMEPAGE:React.FC = () => {
-
+	const navigate = useNavigate(); // Add this hook
   	
   	return (
     		<div className={styles.homePage1}>
@@ -25,9 +25,21 @@ const HOMEPAGE:React.FC = () => {
       			<div className={styles.tokenpricerec} />
       			<img className={styles.days12leftIcon} alt="" src={images.Days12Left} />
       			<b className={styles.altcoinist}>ALTCOINIST</b>
-      			<div className={styles.homePage1Child} />
-      			<div className={styles.homePage1Item} />
-      			<div className={styles.homePage1Inner} />
+      			<div 
+					className={styles.homePage1Child} 
+					onClick={() => navigate('/')}
+					style={{ cursor: 'pointer' }}
+				/>
+				<div 
+					className={styles.homePage1Item} 
+					onClick={() => navigate('/home2')}
+					style={{ cursor: 'pointer' }}
+				/>
+				<div 
+					className={styles.homePage1Inner} 
+					onClick={() => navigate('/home3')}
+					style={{ cursor: 'pointer' }}
+				/>
       			<img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground}  />
 
 				 
